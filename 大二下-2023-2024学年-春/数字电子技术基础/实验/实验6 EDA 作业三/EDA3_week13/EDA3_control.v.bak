@@ -1,0 +1,3 @@
+module EDA3_control
+(input clk,
+ output reg clk_250Hz);

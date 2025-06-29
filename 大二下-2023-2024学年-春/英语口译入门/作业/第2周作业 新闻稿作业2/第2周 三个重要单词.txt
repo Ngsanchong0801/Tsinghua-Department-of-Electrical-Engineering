@@ -1,0 +1,5 @@
+中文                  英文                       类别
+
+遗体	              remains	                  卫生
+存款	              deposit	                  其他
+法医	              forensic	                  卫生

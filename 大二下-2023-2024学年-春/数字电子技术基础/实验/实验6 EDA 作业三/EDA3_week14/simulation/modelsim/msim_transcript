@@ -1,0 +1,58 @@
+# Reading E:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do EDA3_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying E:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {EDA3.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EDA3_control
+# 
+# Top level modules:
+# 	EDA3_control
+# 
+# vlog -vlog01compat -work work +incdir+E:/altera/13.0/Digital\ Electronics/EDA3/EDA3_week14 {E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EDA3_testbench
+# 
+# Top level modules:
+# 	EDA3_testbench
+# 
+# vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  EDA3_testbench
+# vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps EDA3_testbench 
+# Loading work.EDA3_testbench
+# Loading work.EDA3_control
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Ngsanchong  Hostname: NGSANCHONG  ProcessID: 35408
+# 
+#           Attempting to use alternate WLF file "./wlft5y5wjq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft5y5wjq
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Simulation stop requested.

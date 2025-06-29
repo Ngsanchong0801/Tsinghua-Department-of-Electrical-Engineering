@@ -1,0 +1,83 @@
+Restore Archived Project report for EDA3
+Fri Nov 29 23:11:47 2024
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Fri Nov 29 23:11:47 2024 ;
+; Revision Name                   ; EDA3                                  ;
+; Top-level Entity Name           ; EDA3_control                          ;
+; Family                          ; Cyclone II                            ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qar' into the 'E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_restored/' directory
+Info: Generated report 'EDA3.restore.rpt'
+Info (23030): Evaluation of Tcl script e:/altera/13.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4417 megabytes
+    Info: Processing ended: Fri Nov 29 23:11:47 2024
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+
+
++-------------------------------------------------+
+; Files Not Restored                              ;
++-------------------------------------------------+
+; File Name                                       ;
++-------------------------------------------------+
+; EDA3.qpf                                        ;
+; EDA3.qsf                                        ;
+; EDA3_coincharger.bdf                            ;
+; EDA3_control.v                                  ;
+; EDA3_display.v                                  ;
+; EDA3_divider_250Hz.v                            ;
+; EDA3_keyboard.v                                 ;
+; EDA3_testbench.v                                ;
+; incremental_db/compiled_partitions/EDA3.db_info ;
+; assignment_defaults.qdf                         ;
++-------------------------------------------------+
+
+

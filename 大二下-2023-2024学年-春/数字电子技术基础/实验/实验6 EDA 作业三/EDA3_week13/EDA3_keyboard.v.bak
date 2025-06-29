@@ -1,0 +1,5 @@
+module EDA3_keyboard
+(input clk,
+ output reg clk_250Hz);
+ 
+ reg[16:0]count=17'b0; //17位寬的二進制數字

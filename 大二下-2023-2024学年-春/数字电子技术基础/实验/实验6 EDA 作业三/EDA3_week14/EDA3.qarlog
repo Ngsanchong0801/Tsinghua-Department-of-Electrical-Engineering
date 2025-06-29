@@ -1,0 +1,39 @@
+Quartus II Archive log --	W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qarlog
+
+Archive:	W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qar
+Date:		Thu May 30 17:54:14 2024
+Quartus II 64-Bit		13.0.0 Build 156 04/24/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qpf
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qsf
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_coincharger.bdf
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_control.v
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_display.v
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_divider_250Hz.v
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_keyboard.v
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_testbench.v
+W:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/incremental_db/compiled_partitions/EDA3.db_info
+w:/altera/13.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Aug 17 02:29:57 2024
+Source archive file:	E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qar
+Archive was extracted into	E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Sat Aug 17 02:30:26 2024
+Source archive file:	E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qar
+Archive was extracted into	E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Fri Nov 29 23:11:47 2024
+Source archive file:	E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3.qar
+Archive was extracted into	E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_restored/
+		 - successfully.

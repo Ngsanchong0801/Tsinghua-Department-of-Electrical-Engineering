@@ -1,0 +1,144 @@
+module EDA3_display
+(input clk,
+ input money1,money0,time1,time0,
+ input enable,
+ 
+ //output [3:0] DIG,
+ 
+ output reg OA,OB,OC,OD,OE,OF,OG,DIG0,DIG1,DIG2,DIG3);
+ 
+ wire [3:0] num;
+ assign num = {money1,money0,time1,time0};
+ 
+ reg count; //選擇輸出的數碼管
+ reg OA1,OB1,OC1,OD1,OE1,OF1,OG1;//第1位的數碼管
+ reg OA0,OB0,OC0,OD0,OE0,OF0,OG0;//第0位的數碼管
+ 
+ /*parameter[3:0]//編碼
+   num0 = 4'b0000,num1 = 4'b0001,num2 = 4'b0010,num3 = 4'b0011,
+	num4 = 4'b0100,num5 = 4'b0101,num6 = 4'b0110,num7 = 4'b0111,
+	num8 = 4'b1000,num9 = 4'b1001,numA = 4'b1010,numB = 4'b1011,
+	numC = 4'b1100,numD = 4'b1101,numE = 4'b1110,numF = 4'b1111;
+	
+ parameter[6:0]//譯碼
+   bit0 = 7'b0000001,bit1 = 7'b1001111,bit2 = 7'b0010010,bit3 = 7'b0000110,
+	bit4 = 7'b1001100,bit5 = 7'b0100100,bit6 = 7'b0100000,bit7 = 7'b0001111,
+	bit8 = 7'b0000000,bit9 = 7'b0000100,bitA = 7'b0001000,bitB = 7'b1100000,
+	bitC = 7'b0110001,bitD = 7'b1000010,bitE = 7'b0110000,bitF = 7'b0111000;
+	
+ parameter//亮起的數碼管
+ DIG0 = 4'b0001, DIG1 = 4'b0010, DIG2 = 4'b0100, DIG3 = 4'b1000,  DIG00= 4'b0000;
+	
+ reg[3:0] state;
+ assign DIG = state; */
+	
+ /*initial begin
+	state <= DIG00;
+	{OA,OB,OC,OD,OE,OF,OG,OH} <= bit0;
+	money1_bit <= bit0;
+	money0_bit <= bit0;
+	time1_bit <= bit0;
+	time0_bit <= bit0;
+end*/
+
+initial begin
+OA<=1;OB<=1;OC<=1;OD<=1;OE<=1;OF<=1;OG<=1;
+OA0<=1;OB0<=1;OC0<=1;OD0<=1;OE0<=1;OF0<=1;OG0<=0;
+OA1<=1;OB1<=1;OC1<=1;OD1<=1;OE1<=1;OF1<=1;OG1<=0;
+DIG2<=1;
+DIG3<=1;
+count <= 0;
+end
+
+
+always@(posedge clk) begin
+ if (enable)begin
+  case (num)
+  4'b0000:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;//先把第0位的數字放在第1位
+  OA0<=1;OB0<=1;OC0<=1;OD0<=1;OE0<=1;OF0<=1;OG0<=0;//更新第0位
+  end
+  4'b0001:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=0;OB0<=1;OC0<=1;OD0<=0;OE0<=0;OF0<=0;OG0<=0;
+  end
+  4'b0010:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=1;OC0<=0;OD0<=1;OE0<=1;OF0<=0;OG0<=1;
+  end
+  4'b0011:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=1;OC0<=1;OD0<=1;OE0<=0;OF0<=0;OG0<=1;
+  end
+  4'b0100:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=0;OB0<=1;OC0<=1;OD0<=0;OE0<=0;OF0<=1;OG0<=1;
+  end
+  4'b0101:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=0;OC0<=1;OD0<=1;OE0<=0;OF0<=1;OG0<=1;
+  end
+  4'b0110:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=0;OC0<=1;OD0<=1;OE0<=1;OF0<=1;OG0<=1;
+  end
+  4'b0111:begin//7
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=1;OC0<=1;OD0<=0;OE0<=0;OF0<=0;OG0<=0;
+  end
+  4'b1000:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=1;OC0<=1;OD0<=1;OE0<=1;OF0<=1;OG0<=1;
+  end
+  4'b1001:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=1;OC0<=1;OD0<=1;OE0<=0;OF0<=1;OG0<=1;
+  end
+  4'b1010:begin//A
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=1;OC0<=1;OD0<=0;OE0<=1;OF0<=1;OG0<=1;
+  end
+  4'b1011:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=0;OB0<=0;OC0<=1;OD0<=1;OE0<=1;OF0<=1;OG0<=1;
+  end
+  4'b1100:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=0;OC0<=0;OD0<=1;OE0<=1;OF0<=1;OG0<=0;
+  end
+  4'b1101:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=0;OB0<=1;OC0<=1;OD0<=1;OE0<=1;OF0<=0;OG0<=1;
+  end
+  4'b1110:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=0;OC0<=0;OD0<=1;OE0<=1;OF0<=1;OG0<=1;
+  end
+  4'b1111:begin
+  OA1<=OA0;OB1<=OB0;OC1<=OC0;OD1<=OD0;OE1<=OE0;OF1<=OF0;OG1<=OG0;
+  OA0<=1;OB0<=0;OC0<=0;OD0<=0;OE0<=1;OF0<=1;OG0<=1;
+  end
+  endcase
+  end
+  
+ else begin
+    if(count==0)begin //輸出第0位數碼管
+	   DIG2<=1;DIG3<=0;
+		OA<=OA0;OB<=OB0;OC<=OC0;OD<=OD0;OE<=OE0;OF<=OF0;OG<=OG0;
+		count<=1;
+		end
+	 else if(count==1)begin//輸出第1位數碼管
+	   DIG2<=0;DIG3<=1;
+		OA<=OA1;OB<=OB1;OC<=OC1;OD<=OD1;OE<=OE1;OF<=OF1;OG<=OG1;
+		count<=0;
+		end
+	 else begin//輸出00
+	   DIG3<=1;DIG2<=1;
+		OA<=1;OB<=1;OC<=1;OD<=1;OE<=1;OF<=1;OG<=0;
+		count<=0;
+		end
+    end
+end
+  
+endmodule
+	

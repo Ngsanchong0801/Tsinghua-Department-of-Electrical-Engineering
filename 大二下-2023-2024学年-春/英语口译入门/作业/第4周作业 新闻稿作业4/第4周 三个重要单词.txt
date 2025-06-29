@@ -1,0 +1,5 @@
+中文                  英文                       类别
+
+地磁活動	      Geomagnetic Storms	 科技
+衛星導航	      Satellite navigation	 科技
+極光	              aurora	                 科技

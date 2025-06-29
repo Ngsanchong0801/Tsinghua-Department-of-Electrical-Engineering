@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Nov 29 23:12:03 2024
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : EDA3
+Top-level Entity Name : EDA3_control
+Family : Cyclone II
+Device : EP2C5Q208C8
+Timing Models : Final
+Total logic elements : 368 / 4,608 ( 8 % )
+    Total combinational functions : 364 / 4,608 ( 8 % )
+    Dedicated logic registers : 53 / 4,608 ( 1 % )
+Total registers : 53
+Total pins : 23 / 142 ( 16 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

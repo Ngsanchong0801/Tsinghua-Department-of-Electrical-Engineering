@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\13.0\Digital Electronics\EDA3\EDA3_week14\simulation\modelsim
+vEDA3_control
+I;OJmdTBe1dA>O0ellLM;S1
+V_iGfYoPDJLA7JA08>4ZJN2
+Z1 dE:\altera\13.0\Digital Electronics\EDA3\EDA3_week14\simulation\modelsim
+w1723881336
+8EDA3.vo
+FEDA3.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@e@d@a3_control
+!i10b 1
+!s100 WMUa3ZN>466f4S]3ZI;8l3
+!s85 0
+!s108 1723881344.298000
+!s107 EDA3.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|EDA3.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vEDA3_testbench
+!i10b 1
+!s100 FkQQgiDKb3GE5VOmL37f=0
+I5_EhG7b^^8:NUBAGYOcMf1
+V@abaMj2SzHT1SIChDldh?2
+R1
+w1717061226
+8E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_testbench.v
+FE:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_testbench.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1723881344.401000
+!s107 E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14|E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14/EDA3_testbench.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work {+incdir+E:/altera/13.0/Digital Electronics/EDA3/EDA3_week14} -O0
+n@e@d@a3_testbench

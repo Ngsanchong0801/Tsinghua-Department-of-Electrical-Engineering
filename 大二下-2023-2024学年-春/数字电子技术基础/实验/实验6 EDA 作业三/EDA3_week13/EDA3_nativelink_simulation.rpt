@@ -1,0 +1,78 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  w:/altera/13.0/quartus/bin64/
+Quartus sim root      :  w:/altera/13.0/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  EDA3.vo
+Sim SDF file          :  EDA3__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script w:/altera/13.0/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File EDA3_run_msim_gate_verilog.do already exists - backing up current file as EDA3_run_msim_gate_verilog.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading W:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do EDA3_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying W:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied W:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {EDA3.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module EDA3_keyboard
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	EDA3_keyboard
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+W:/altera/13.0/Digital\ Electronics/EDA3/EDA3_week13 {W:/altera/13.0/Digital Electronics/EDA3/EDA3_week13/EDA3_testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module EDA3_testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	EDA3_testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  EDA3_testbench
+ModelSim-Altera Info: # vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps EDA3_testbench 
+ModelSim-Altera Info: # Loading work.EDA3_testbench
+ModelSim-Altera Info: # Loading work.EDA3_keyboard
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_ff
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_clkctrl
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux41
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ena_reg
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           File in use by: Ngsanchong  Hostname: NGSANCHONG  ProcessID: 47108
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Attempting to use alternate WLF file "./wlft0bk5zc".
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Using alternate file: ./wlft0bk5zc
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+Info: NativeLink simulation flow was successful

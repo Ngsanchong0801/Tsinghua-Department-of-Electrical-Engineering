@@ -1,0 +1,7 @@
+
+State Machine - |EDA3_keyboard|row
+Name row.s3 row.s2 row.s1 row.s0 
+row.s3 0 0 0 0 
+row.s2 1 1 0 0 
+row.s1 1 0 1 0 
+row.s0 1 0 0 1 

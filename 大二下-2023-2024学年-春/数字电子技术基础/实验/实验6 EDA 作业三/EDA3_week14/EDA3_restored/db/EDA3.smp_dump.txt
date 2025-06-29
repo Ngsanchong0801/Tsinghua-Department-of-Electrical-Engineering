@@ -1,0 +1,6 @@
+
+State Machine - |EDA3_control|state
+Name state.s0 state.s2 state.s1 
+state.s0 0 0 0 
+state.s1 1 0 1 
+state.s2 1 1 0 

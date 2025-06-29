@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dW:\altera\13.0\Digital Fundamentals\EDA3\simulation\qsim
+vEDA3_coincharger
+Z1 !s100 ?bkz:OGZ2I>ZkDe<`gV;M2
+Z2 IYQSAbKmWzc?6m1Yf3=Nnz1
+Z3 V53OiK>3[fh@Mzje<M:1hD3
+Z4 dW:\altera\13.0\Digital Fundamentals\EDA3\simulation\qsim
+Z5 w1716443267
+Z6 8EDA3.vo
+Z7 FEDA3.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|EDA3.vo|
+Z10 o-work work -O0
+Z11 n@e@d@a3_coincharger
+!i10b 1
+!s85 0
+Z12 !s108 1716443268.092000
+Z13 !s107 EDA3.vo|
+!s101 -O0
+vEDA3_coincharger_vlg_check_tst
+!i10b 1
+Z14 !s100 7[C[1bOLzSci7XQW^EL@V1
+Z15 IPcnBD3j:A2Zh@N4AK][323
+Z16 VNa]eF2`PSDA=Q[[C70eR;3
+R4
+R5
+Z17 8EDA3.vt
+Z18 FEDA3.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z19 !s108 1716443268.158000
+Z20 !s107 EDA3.vt|
+Z21 !s90 -work|work|EDA3.vt|
+!s101 -O0
+R10
+Z22 n@e@d@a3_coincharger_vlg_check_tst
+vEDA3_coincharger_vlg_sample_tst
+!i10b 1
+Z23 !s100 6Y=CdU3S2naLCBBoC=[<`0
+Z24 I5>zW8EE02z:@1Lo9kg?ec1
+Z25 VdHZIihj`9?g>63QHz]C<>0
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@e@d@a3_coincharger_vlg_sample_tst
+vEDA3_coincharger_vlg_vec_tst
+!i10b 1
+!s100 EfIlFEeTjUEO4D43?6c;W3
+IESj2Nh2JGThZ5[??GDSMY1
+Z27 V]J;=0Ff1f^:3`z;bD4^6=0
+R4
+R5
+R17
+R18
+Z28 L0 510
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 n@e@d@a3_coincharger_vlg_vec_tst

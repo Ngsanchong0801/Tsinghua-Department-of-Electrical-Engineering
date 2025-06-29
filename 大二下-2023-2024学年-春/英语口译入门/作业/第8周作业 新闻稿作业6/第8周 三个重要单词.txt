@@ -1,0 +1,5 @@
+中文                  英文                       类别
+
+油料作物           oil crops                     农业
+大豆锈病         soybean rust                    农业
+知识产权      intellectual property              其他

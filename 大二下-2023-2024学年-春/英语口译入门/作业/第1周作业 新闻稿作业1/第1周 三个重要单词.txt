@@ -1,0 +1,5 @@
+中文                  英文                       类别
+
+变质岩油田	Metamorphic rock oil field	 环境
+油气层	           commercial bed	         环境
+钻探井	            exploratory well	         环境

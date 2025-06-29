@@ -1,0 +1,5 @@
+中文                  英文                       类别
+
+化工厂	          chemical plant	        科技
+碳氢化合物	  hydrocarbons	                科技
+冲击波	          shock wave	                科技

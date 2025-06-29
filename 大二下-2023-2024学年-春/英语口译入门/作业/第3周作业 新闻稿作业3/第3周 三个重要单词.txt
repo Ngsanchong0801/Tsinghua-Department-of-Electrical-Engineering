@@ -1,0 +1,5 @@
+中文                  英文                       类别
+
+星艦	              Starship	                 科技
+多星球化	      Multiplanetary	         科技
+飛行器	              aircraft	                 科技

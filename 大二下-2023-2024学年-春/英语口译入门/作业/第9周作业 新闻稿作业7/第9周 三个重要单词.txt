@@ -1,0 +1,5 @@
+中文                  英文                       类别
+
+骑兵队              cavalry                      其他
+脱缰马           runaway horse                   其他
+封锁线              blockade                     其他

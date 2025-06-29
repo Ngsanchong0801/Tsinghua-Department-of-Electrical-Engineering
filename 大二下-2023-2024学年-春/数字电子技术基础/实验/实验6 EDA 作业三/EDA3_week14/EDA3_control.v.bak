@@ -1,0 +1,7 @@
+module control(
+input [3:0] input_numbers,
+input ispressed,
+input clk,
+output reg [3:0] money_t,money_o,time_t,time_o,
+output reg enable                                  //数码管是否允许亮起
+);
