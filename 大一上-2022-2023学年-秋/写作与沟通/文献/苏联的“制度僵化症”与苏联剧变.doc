@@ -1,0 +1,201 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style>.trR{ text-align:right;}
+#wraper{width:1190px; margin:0 auto; margin-bottom:10px;text-align:left;}
+#left{ float:left;width:250px; text-align:left;}
+#right{float:right;width:930px;text-align:left;border-top:2px solid #619bc0; padding-bottom:10px;}
+.border_w{ border:1px solid #d3d3d3;border-top:2px solid #619bc0;}
+.t01{height:30px;line-height:30px;border:1px solid #dddddd;padding-left:10px;background:url(../images/tbg01.jpg) repeat-x bottom; color:#1183c1; font-size:14px;}
+.con_01{ padding:10px;}
+.con_cbg{ background:url(../images/con_cbg.gif) repeat-y;}
+.con_bbg{ background:url(../images/con_bbg.gif) no-repeat left bottom; height:1px; line-height:1px; font-size:0;}
+
+.source{margin:15px;background:url(../images/linex.gif) repeat-x bottom; padding-bottom:30px; margin-bottom:30px;}
+.source .source-img{border:1px solid #d3d3d3; text-align:center; padding:5px;margin-bottom:10px; }
+.source p{color:#666666; font-weight:bold; font-size:12px;}
+.source .fblue{ color:#236bac; font-weight:normal;}
+
+.t_tj{ height:27px;padding-top:2px;margin:15px; background:url(../images/con_t_tj.gif) no-repeat left top; padding-left:10px; color:#FFFFFF; font-size:14px;}
+.c12_01{ margin-left:15px; margin-right:15px; margin-bottom:15px;}
+.c12_01 li{font-size:12px; line-height:24px; background: url(../images/dot.gif) no-repeat 2px 10px; padding-left:15px;}
+
+#artibodyTitle{color:#236bac;font-family:"宋体";font-size:20px;font-weight: normal;line-height:35px;text-align:center;margin-top:10px;	text-align:center;}
+#artisubTitle{font-family:"宋体";font-size:16px;font-weight: normal;line-height:28px;text-align:center;}
+.articl_info{margin-left:30px; margin-right:30px; position:relative;border-bottom:1px solid #e1e1e1;padding-bottom:20px; margin-bottom:20px;}
+.btn-img{
+	background-image:url(../images/allbg.png);
+	background-repeat:no-repeat;
+	font-size:12px;		
+	cursor:pointer;
+	border: 0px none;
+	display: inline-block;
+	vertical-align:middle;
+	text-align:center;}
+
+.artInfo{height:22px;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;padding:5px;margin:20px;}
+.artInfo li{float:left;width:33%;height:22px; line-height:22px; color:#666666;}
+
+.artInfo li .collectionPage_link{
+	background-position:-509px -80px;
+	padding-left:10px;
+	margin-top:-2px;
+	_margin-top:0px;
+	margin-left:10px;
+	width:51px;
+	height:22px; 
+	line-height:22px;		
+	color:#1183c1;	}
+.artInfo li .printPage_link{
+	background-position:-570px -80px;
+	padding-left:10px;
+	margin-top:-2px;
+	_margin-top:0px;
+	margin-left:10px;
+	width:51px;
+	height:22px; 
+	line-height:22px;	
+	color:#1183c1;}
+.artInfo li .downloadPage_link{
+	background-position:-631px -80px;
+	margin-top:-2px;
+	_margin-top:0px;
+	margin-left:10px;
+	width:51px;
+	padding-left:10px;
+	height:22px; 
+	line-height:22px;	
+	color:#1183c1;}
+
+
+.artBaseInfo{line-height:24px; margin-bottom:5px;}
+.artBaseInfo .info_left{float:left;width:80px;}
+.artBaseInfo .info_right{float:left;width:790px;}
+
+.artBaseInfo dt{float:left;width:80px; color:#666666;line-height:20px; display:inline-block;}
+.artBaseInfo dd{color:#666666;line-height:20px;display:inline-block;}
+.artBaseInfo .col li{ float:left;width:210px; height:20px; line-height:20px;color:#666666;}
+
+.artBaseInfo .item{ float:left;width:50%;}
+.artBaseInfo .notice{
+	margin-left:10px;
+	width:61px;
+	padding-left:10px;
+	height:22px; 
+	line-height:22px;
+	background-position:-448px -80px;	
+	color:#1183c1;}
+
+.artInfo{height:30px;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;margin:20px 10px;}
+.artInfo div{ float:left;width:30%;height:30px; line-height:30px; text-align:center;}
+.artInfo div a{ margin-left:20px; margin-right:20px;}
+.artInfo li{float:left;width:33%;height:22px; line-height:22px; color:#666666;}
+
+.articl_info{margin-left:30px;margin-right:30px; position:relative;border-bottom:1px solid #e1e1e1;padding-bottom:20px; margin-bottom:20px;}
+.artBaseInfo{margin-bottom:5px;}
+.articl_info_t{float:left;width:80px;margin-right: -100%;font-weight:bold;line-height:24px;}
+.articl_info_c{float: left;width: 100%;}
+.articl_info_c .info_c{margin-left:80px; line-height:24px;}
+.artBaseInfo .marL{ margin-left:20PX;}
+.artBaseInfo .col_info{ float:left;width:30%;line-height:20px;}
+
+.fontSize{position: relative;right:0px;top:0px;font-size:12px; height:30px; line-height:30px; text-align:right;}
+.fontSize a{border:1px solid #c2c2c2;margin-right:10px;padding:4px 1px;*padding:1px; cursor:pointer;font-size:12px;}
+.fontSize a span{background:url(../images/page_a_36.png) repeat-x;padding:3px;}
+
+.fontSize a.now{border: #f9ad75 1px solid;padding:4px 1px;*padding:1px;}
+.fontSize a.now span{color:#ff7d27;background:url(../images/current_34.png) repeat-x bottom;padding:3px;}
+.artibody{margin-left:20px;margin-right:20px;font: 18px/180% "Microsoft YaHei","微软雅黑"; color:#666666;}
+.artibody p{margin-bottom:20px;}
+
+.fontSize A:link{ color:#000000;text-decoration:none;}
+.fontSize A:visited{ color:#000000;text-decoration:none;}
+.fontSize A:hover{ color:#FF0000;text-decoration:none;}
+.fontSize a.now:link{color:#ff7d27;text-decoration:none;}
+#Zoom img {max-width:600px; max-height:600px; scale:expression((this.offsetWidth > this.offsetHeight)?(this.style.width = this.offsetWidth >= 600 ? "600px" : "auto"):(this.style.height = this.offsetHeight >= 600 ? "600px" : "auto")); display:inline !important;}
+
+.t_artiInfo{font-size:14px; padding-left:20px;background:url(../images/linex.gif) repeat-x top; line-height:30px; margin-top:10px;}
+.li_artiInfo{margin-left:30px; margin-right:30px;padding-bottom:10px; }
+.li_artiInfo ul li{float:left;width:100%;padding:3px 0;}
+.li_artiInfo ul li .title{ float:left;width:65%;}
+.li_artiInfo ul li .author{ float:left;width:15%;}
+.li_artiInfo ul li .come{ float:right;width:20%;color:#999999; text-align:right;}
+
+
+.index_artInfo{height:36px; line-height:36px; border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1; margin-top:20px; padding-left:20px;  padding-right:20px;padding-right:10px; margin-bottom:10px; margin-left:10px;text-align:center;}
+.index_artInfo a.collectionPage_link{ background:url(../images/icon.gif) no-repeat 0 1px; padding-left:15px;}
+.index_artInfo a.printPage_link{background:url(../images/icon.gif) no-repeat 0 -55px; padding-left:15px;}
+.index_artInfo a.downloadPage_link{background:url(../images/icon.gif) no-repeat 0 -108px; padding-left:13px;}
+
+.index_body .main{margin-left:100px; line-height:28px;color:#000000; padding-bottom:30px; padding-top:20px;}</style></head><body><div id="wraper">
+            <div id="artTitles">
+                <h1 id="artibodyTitle">苏联的“制度僵化症”与苏联剧变</h1>
+                <h2 id="artisubTitle">——新制度主义的一个实证分析</h2>
+            </div>
+            
+                <br class="cls">
+            </div>
+            <div class="articl_info">
+                <div class="artBaseInfo" id="autInfo">
+                    <div class="articl_info_t">作 者：</div>
+                    <div class="articl_info_c">
+                        <div class="info_c">
+                                <a target="_blank" href="/qw?s0=4&amp;s1=%e5%b8%b8%e6%ac%a3%e6%ac%a3">常欣欣</a>&nbsp;
+                        </div>
+                    </div>
+                    <br class="cls">
+                </div>
+                <div class="artBaseInfo" id="autDescription">
+                    <div class="articl_info_t">作者简介：</div>
+                    <div class="articl_info_c">
+                        <div class="info_c">常欣欣，法学博士，中共中央党校科学社会主义教研部副教授。(北京100091)</div>
+                    </div>
+                    <br class="cls">
+                </div>
+                <div class="artBaseInfo" id="tAutInfo"></div>
+                <div class="artBaseInfo" id="orgInfo">
+                    <div class="articl_info_t">原文出处：</div>
+                    <div class="articl_info_c">
+                        <div class="info_c">中共中央党校学报</div>
+                    </div>
+                    <br class="cls">
+                </div>
+                <div class="artBaseInfo" id="astInfo">
+                    <div class="articl_info_t">内容提要：</div>
+                    <div class="articl_info_c">
+                        <div class="info_c">
+                            <p>苏俄和苏联在落后的经济文化基础上建立起来的社会主义制度，已经在最初的制度设计中，由于权力的高度集中而同时隐含了“制度供给不足”与“制度供给过剩”的危机因素。虽然这种制度上的“先天不足”并不必然导致其制度的日益僵化，但是在苏联模式的历史演进中，却因其制度供给主体，即特权阶层及其领导者的“自私”和思想落伍而日渐丧失制度创新能力。包括农民在内的、社会各阶层的制度供给主体地位的失落，使得苏联社会在半个多世纪内多次丢掉改革机遇。这一模式完全失去了活力，并且在国内外各种因素的促成下，通过高成本、高代价和悲剧性的解体方式实现了制度的转换。苏联的教训从反面证明，“制度创新”是决定社会主义命运的重要环节。</p>
+                        </div>
+                    </div>
+                    <br class="cls">
+                </div>
+                <div id="artPdcInfo" class="artBaseInfo">
+                    <div class="col_info"><b>期刊代号：</b>D3 </div>
+                    <div class="col_info"><b>分类名称：</b>国际共产主义运动 </div>
+                    <div class="col_info"><b>复印期号：</b>2003 年 01 期 </div>
+                    <br class="cls">
+                </div>
+                <div class="artBaseInfo" id="artKeyword">
+                    <div class="articl_info_t">关 键 词：</div>
+                    <div class="articl_info_c">
+                        <div class="info_c">
+                                    <a target="_blank" href="/qw?s0=7&amp;s1=%e6%96%b0%e5%88%b6%e5%ba%a6%e4%b8%bb%e4%b9%89">新制度主义</a>&nbsp;
+                                    <a target="_blank" href="/qw?s0=7&amp;s1=%e8%8b%8f%e8%81%94%e6%a8%a1%e5%bc%8f">苏联模式</a>&nbsp;
+                                    <a target="_blank" href="/qw?s0=7&amp;s1=%e5%88%97%e5%ae%81%e4%b8%bb%e4%b9%89">列宁主义</a>&nbsp;
+                                    <a target="_blank" href="/qw?s0=7&amp;s1=%e6%88%88%e5%b0%94%e5%b7%b4%e4%b9%94%e5%a4%ab">戈尔巴乔夫</a>&nbsp;
+
+                        </div>
+                    </div>
+                    <br class="cls">
+                </div>
+                <div class="artBaseInfo" id="artTitleNote"></div>
+                <a id="readArea" name="readArea"></a>
+                
+            </div>
+            <div id="artText"><div class="artibody" id="Zoom" style="font-size: 14px;">
+    <p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏联在20世纪的勃兴与瓦解，对于现实国际政治格局，对于整个世界社会主义运动，对于有中国特色社会主义事业，都产生了重大则深远的影响。这种影响不仅在于这一事件本身作为既成事实的辐射意义，还在于这一历史过程所展现出来的内在逻辑及其多层次性，为探讨苏联剧变的深层次原因创造了新制度主义的研究途径。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;唯物史观与新制度主义的视角<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;考察苏联的演变，离不开唯物史观的原则和方法。唯物史观并不排斥非经济因素对于历史进程及其结局的影响。马克思强调指出，“总的说来，经济运动会为自己开辟道路，但是它也必定要经受它自己所确立的并且具有相对独立性的政治运动的反作用，即国家权力的以及和它同时产生的反对派的运动的反作用。”[1]毛泽东对这一点做了进一步发挥，指出只承认生产力对于生产关系、经济基础对于上层建筑的决定意义，认为“它们的地位并不互相转化。这是机械唯物论的见解，不是辩证唯物论的见解。”“当着不变更生产关系，生产力就不能发展的时候，生产关系的变更就起了主要的决定作用。”“当着政治文化等等上层建筑阻碍着经济基础的发展的时候，对于政治上和文化上的革新就成为主要的决定的东西了。”[2]<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正是基于上述认识，本文从制度及其演变的角度来分析苏联解体的深层次原因，乃是对此一重大历史事变进行深入研究的题中应有之义。就此而言，20世纪80年代以来兴起的新制度主义，恰好为我们提供了一种可资借鉴的思路。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新制度主义“在继承旧的制度分析学派研究成果的基础上，力图把制度研究与行为研究、决策研究结合起来。”[3]它强调历史的动态过程，着重从制度演进的角度解释经济发展、政治变革和社会更替，认为制度变迁决定着社会演进的方式，是理解历史的关键。这正如新制度主义的代表人物之一诺斯所说：“我们不是要再造过去；我们建构的是关于过去的故事。……将制度融入历史，能使我们比在其他情况下讲述一个更好的故事。”[4-1]詹姆斯·马奇和约翰·奥尔森则从新制度主义政治学的角度指出：“制度理论将阐述历史的进程怎样受政治制度具体特征的影响，并将提供对历史无效性问题的更宏大的理论解释。”(注：按照他们本人的说法，所谓“历史无效性是指不存在均势，耗费的时间过于持久，产生某种非惟一的结局或惟一但属次优的结局的历史过程。”)<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按照诺斯的说法，“制度是一个社会的游戏规则。更规范地说，它们是为决定人们的相互关系而人为设定的一些制约”[4-2]，即约束追求主体福利或效用最大化利益的个人或集团的行为。它可以分为三个层次：制度安排、制度结构和制度环境。其中，制度安排指的是某项具体的、正式或非正式的规则和程序；制度结构是由各项制度安排依一定的关系所形成的一个动态集合或称系统；制度环境则是所有对制度变迁有影响的参变量所组成的背景状态。新制度主义认为，人类活动都是在既定的约束条件下进行的。在种种约束条件下，人们解决问题可以有多种选择方式，但最后总会通过博弈决定一种解决方式，这样就形成了一项新的制度安排。它不一定是最优的，而是带有一定的“偶然性”。它一旦形成，便会内在地产生自我强化机制。就是说，制度自身的演进一旦走上某种路径，其既定的发展方向就会在以后的发展中不断得到强化。形成这种所谓的“路径依赖”的深层次原因，就在于利益因素，即制度安排之后出现的既得利益格局。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从制度形成的偶然性可以得出一个很重要的推论，起初有效的制度安排在演进过程中有可能失效，从而导致制度的非均衡，这样就产生了制度创新的需求。但存在制度创新的需求，并不意味着必然会产生制度供给。“只有在制度变迁的实施者有利可图，且能承担制度变迁中的成本时，制度变迁才会发生。”[5]况且，由于“路径依赖”机制的存在，初始的制度安排对制度变迁的方向起着重要的制约作用。这一点是诺斯反复强调的：“改革路径的选择是历史在起作用，经济的发展也是如此。无论是政治制度本身，还是信仰制度都与历史密切相关。它们的产生和演变受过去的影响，同时也限制了选择当前和过去的改革路径。如果我们不知道自己是如何走过来的，就不知道今后前进的方向。”[6]<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不难看出，新制度主义并不否认制度产生、发展的社会经济历史背景。它更强调制度的“自主独立性”，即认为具有相对独立性的制度结构不只是经济基础、历史传统和社会力量的简单反映，而是直接影响着社会历史的进程和人类活动的结局。因此，借助新制度主义所提供的思路及与之相应的概念工具来分析苏联兴衰的过程，可能在某种程度上失之片面，但也惟其如此，才会使我们从制度演进与变迁的这一个侧面，揭示苏联演变的深层次原因。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;列宁主义的精髓与苏联制度演变的轨迹<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意识形态理论是新制度主义的三大理论基石之一。在新制度主义看来，意识形态是减少其他制度安排成本的最重要的制度安排。它通过提供给人们一种信念而使其行为决策更加经济，并且在一定程度上决定了其他制度安排的演进方向。苏联作为第一个社会主义国家，马克思列宁主义的意识形态在其历史发展过程中的作用更是巨大的。所以，我们的分析不妨从列宁和列宁主义开始。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;列宁主义的实质在于，在俄国这样落后的国家探索如何实现跳跃式的社会发展。众所周知，不仅十月革命的反对者，就连列宁本人也认识到，当时俄国的社会生产力还没有发展到可以实行社会主义制度的高度。但列宁出于对俄国革命形势的敏锐把握，更多地强调另一种思路：“既然建立社会主义需要有一定的文化水平(虽然谁也说不出这个一定的‘文化水平’究竟是什么样的，因为这在各个西欧国家都是不同的)，我们为什么不能首先用革命手段取得达到这个一定水平的前提，然后在工农政权和苏维埃制度的基础上赶上别国人民呢?”又说：“你们说，为了建立社会主义就需要文明。好极了。那么，我们为什么不能首先在我国为这种文明创造前提，如驱逐地主，驱逐俄国资本家，然后开始走向社会主义呢?你们在哪些书本上读到过，通常的历史顺序是不容许或不可能有这类改变的呢?”[7-1]笔者认为，列宁主义的精髓正在于此：主张先建立无产阶级政权，再利用这个政权的力量推动生产，创造走向社会主义的条件。而这一思路及其初期的成功实践，恰好决定了俄国后来的建设和发展，不可能不是一个人为设计和控制的漫长过程。所以，“政治”在这里不仅指政治操作上的方针、政策、策略，而且包括实体上的政权组织甚至政治领导者个人。这一结论与列宁的建党理论、“灌输”理论及革命策略都是一致的。它不仅影响了十月革命胜利前后俄国党和国家政权的制度安排，而且影响了这个制度后来的演进和变迁。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另一方面，也为众所周知的是，列宁的正确思路在处理当时几个重大事件上，起初都处于少数人支持的地位，是经过列宁的说服乃至抗争才得以实施。关于发动十月革命，列宁的主张在布尔什维克党内几次遭到否决，以至列宁不得不请求退出中央委员会，并申明保留在党的下层和党的代表大会上进行鼓动的自由；关于签定布列斯特和约，列宁的主张又被几次否决，甚至当列宁再次表示要退出政府和中央委员会以后仍然不被理会，最后还是由于托洛茨基的弃权才使列宁的提议得以通过；关于新经济政策，更是在党内外引起普遍抵制，国外一些共产党员也表示不能理解。虽然在这些问题上，列宁最终都取得了胜利，而且实践也证明列宁确实是正确的。但当时他所表现出来的“专断”，却隐含到后来苏联的体制和权力运作之中。换言之，虽然列宁的素质和品格可以保证他的主张是正确的，而且他不会滥用手中的权力，但由于没有从制度上堵塞漏洞，尽管列宁在其“政治遗嘱”中表示了自己的担忧并提出了一些防范措施，还是没有能够解决问题。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当然，在评价列宁主义的时候，必须注意到苏俄和苏联的制度环境，如布尔什维克与西欧社会民主主义的论战，十月革命胜利后巩固政权的现实需要，列宁理论认识上“大过渡”的自我定位，等等。强调上述两个小小的侧面，绝不是断定苏联剧变的罪魁祸首在于列宁，而是要说明这样一个事实：从列宁晚年的探索到斯大林模式的确立，其间虽然并不存在着历史的必然性，但我们也很难否认，两者之间存在着某种历史的延续性。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于苏联模式在斯大林、赫鲁晓夫、勃列日涅夫等人执政时期所发生的演变，笔者要指出，本身已经先天不足的苏联模式，经过后来历次不成功的改革，反而使其中不健康的因素日益累积，终于形成了综合性的“制度僵化症”。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏联制度供给的主体与“制度僵化症”<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;列宁主义内在地规定了苏联政治对社会的高度渗透性和自上而下的权力运作方向。以此为指导的苏联，起初的制度设计也是以权力的高度集中为特征的。这就决定了苏联制度供给的主体只能来自于最高领导阶层甚至是其中的个人。它对于苏联历史的发展所带来的深刻作用和负面影响，恐怕到现在也没有被充分揭示出来。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏联的高度集权体制形成于上世纪30年代的大清洗前后，其缺点又由于第二次世界大战的到来而加重。正是在这一时期，苏联开始出现官僚特权阶层。这一阶层不仅通过独揽公共权力大肆聚敛钱财，而且形成了官僚主义和个人崇拜。这种体制造就了一支无能、低效、僵化和保守的干部队伍。被曼库尔·奥尔森称作“分利联盟”的这个特权阶层作为最大的既得利益集团，对于是否进行制度创新，显然只是从自身的利益得失出发考虑问题。对于社会上的制度需求，由于不能增加甚至可能损害自身利益，他们是不会提供新的制度安排的。即使形势迫使他们做出让步，他们也会最大限度地减少自己的损失。就是这种维护现状的努力，使苏联的历次改革都是虎头蛇尾、无疾而终。不错，赫鲁晓夫当政时期，苏共曾经想做一些改革，结果遭到苏共领导阶层的强烈反对。赫氏关于降低高级军官薪金的提议，甚至成为军队支持倒赫、迫使赫鲁晓夫下台的重要原因之一。到了勃列日涅夫时代，对旧制度、旧体制的改革又一次演变为对旧制度、旧体制的完善。苏联后期出现的“老人政治”、“病夫治国”现象，正是这一特权阶层僵化腐朽的生动写照。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是，苏联的特权阶层一方面拒绝、抵制和反对任何为社会所迫切需要的制度创新，另一方面为了他们自身的利益需求，却又把社会本来并不需要的制度安排，不断地强加给苏联社会。例如，斯大林终止列宁的新经济政策，强制推行农业集体化。再如，苏联的许多领导人推行霸权主义外交政策，在苏联国内建立与此相应的机构和制度。这种“积极的制度供给不足”、“消极的制度供给过剩”并存的现象，被称作“制度供给危机”。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对苏联的历史发展影响重大的另一个阶层，是农民阶层。苏俄和苏联的社会主义革命和建设是在落后的、小农经济占优势的国度内展开的。农民的态度是决定这个革命和建设乃至后来改革成败的决定性因素。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;列宁在总结十月革命的过程时指出，“在1917年10月，我们同全体农民一起去夺取政权。”还说：“至少在1918年夏天以前，在贫苦农民委员会建立以前，我们作为一个政权维持下来，是因为我们依靠了全体农民。”[8]经过一系列探索，通过实行新经济政策，列宁找到了社会主义与小农经济的结合点，即合作社是俄国农民走向社会主义的组织形式和途径。20年代末爆发粮食收购危机后，斯大林严厉斥责农业发展不能满足工业化的需求，认为根源在于农业生产还没有按照集体化路线联合起来。所以，苏联农村的出路只能是“把分散的小农户转变为以公共耕种制为基础的联合起来的大农庄”。由此强制进行了全盘集体化，并由国家对集体农庄和庄员实行全面控制。苏维埃不仅掌握全部的土地和大农业机器，规定农庄的组织形式和公有化程度，而且通过行政系统、命令性计划、义务交售制度等指挥和监督农庄的一切活动，使集体农庄和庄员绝对服从国家利益，使农业完全服务于工业。苏联的农民阶层因此便完全处于一种制度性的弱势地位。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二次世界大战结束后，苏联遇到了制度创新的历史性契机，但苏联的领导阶层却将战时的体制或原封不动、或稍加变通、或变本加厉地移植到了战后，特别是在农业领域进一步强化了集体农庄管理体制。在“一大二公”观念的指导下，屡次大规模合并集体农庄。更为严重的是，从1930年到1953年的23年间，工农业“剪刀差”的价格一成不变，国家从农民手里采购的粮食价格未变，而同期工业品价格却上涨了20倍。这一政策使农民几乎失去了在集体土地上劳动的兴趣。赫鲁晓夫上任后，决定减轻农民负担，减少行政干预，用物质利益刺激农民的生产积极性。这些措施一度取得了积极效果，但基本体制没有被触动，集体农庄和庄员仍然处于无权的依附地位。在批判斯大林的苏共二十大报告中，赫鲁晓夫肯定了斯大林的工业化和集体化路线，后来强行扩大玉米种植面积，又沉重打击了农民的积极性。勃列日涅夫时期的“新经济体制”改革在农业方面一度取得较好成绩，也没有从根本上改变传统体制。从1966年2月1日起，在集体农庄推行“有保障的劳动报酬制”，即由国家担保为庄员按月预支劳动报酬，年终再结算，此外还推行了退休金、残废优抚金、丧失赡养人优抚金等各种社会保障制度。于是，农民也和城市职工一样享受免费教育、公费医疗等福利待遇，从而增加了农民对国家的依赖，使农民逐渐变成了消极的利益阶层。他们习惯于服从命令，因循守旧。他们害怕竞争，惧怕变革，一切依赖集体、依赖国家，相当一部分庄员甚至不知道离开农庄该如何生活(村社传统与集体农庄生活之间的内在契合更加剧了农民阶层的这些消极特征)。这表明，农民阶层在苏联的整个制度结构中不仅处于弱势地位，无法充当制度创新供给的主体，而且在很多时候由于既得利益的存在，他们也不愿意进行有风险的改革。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实，农民阶层并非没有自己的制度需求，只不过是无法通过正常渠道表达自己的要求而已。1930年，斯大林主持制定的关于实现全盘集体化期限的决定规定，凡不加入集体农庄的农民将被视为苏维埃政权的敌人而受到严厉制裁。所以，即使农民对早已失去激励机制的集体农庄制度表示不满，也仅能消极抵制。有材料说，苏联有些地区早就开始实验土地承包和“包产到组”。这些措施不仅干部有抵触，农民也很少有人支持，结果常常是土地承包不出去。更有甚者，当少数人承包经营获得丰收时，其他人竟会将其成果一抢而光。不满原有制度安排，自身又无法或不愿进行制度创新，这样就形成了一种畸形的社会心态。受到同一问题困扰的原波兰统一工人党总书记拉科夫斯基曾经说，最要命的问题在于，我们的人民都想像西方人那样生活，但是还要像从前那样工作。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在以上几方面因素的共同作用下，“制度供给危机”在苏联成为一种长期存在的问题，只不过是时隐时显、时轻时重、时缓时急而已。危机导致苏联的整个制度结构越来越不协调，制度的运行成本越来越大，和谐因素越来越少，终于形成了综合性的“制度僵化症”。按照奥尔森的观点，要根治这种制度僵化症，必须经过剧烈的“奥尔森震荡”，以打破既得利益结构。戈尔巴乔夫改革的结果应验了这一点。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;戈氏改革失败与苏联解体<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;评价戈尔巴乔夫的改革，几乎所有的论述都强调他在混乱的经济改革形势下，不加分析地转向政治体制改革的错误，却没有具体分析这一转向背后的深层次原因。实际上，苏联的历史发展到戈尔巴乔夫执政时期，制度演进的路径已经被锁定。这是苏联改革失败、直至最后解体的根本原因。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先，虽然苏共仍然是制度供给的主体，仍然有着强大的力量，但特权阶层的长期存在，致使苏共和苏联政府在群众中的形象不佳和威信空前低落，其制度供给能力大大削弱。其次，国内制度结构的力量对比发生了较大变化。“持不同政见者”越来越多，要求反思历史的力量越来越大。须知，即使是当时占主导地位的政治力量也认识到改革是必要的，认识上的区别仅仅在于改革的力度和方向。再次，伴随着世界一体化进程，西方和平演变势力也有了发挥较大作用的机会。他们用各种承诺向苏联推荐“休克疗法”的激进策略。所有这些因素构成了戈尔巴乔夫改革面临的制度环境。由于制度僵化症的存在，可供戈尔巴乔夫选择的余地并不大，所以他的经济改革思路仍然跳不出优先发展重工业的旧框架，形势迫使他不得不急忙转向政治体制改革。政治体制也不容易被突破，他只好选择以“公开性”、“民主化”为口号，提出“人民应当知道一切，并且自觉地判断一切”，提出要“填补历史的空白点”，试图通过批判和反思体制的历史弊端找到改革的方向和途径。不幸的是，这两个口号引发了人们整体否定苏联历史，进而否定社会主义、马克思列宁主义。更重要的是，这两个口号及相关政策，远不在于给人们以言论自由，而是改变了苏联社会生活的权力走向，从而开启了一条不再以任何个人的主观意志为转移的逻辑链条。这是苏联的政治对经济的过度渗透的破产，同时也是苏联整个制度结构的破产。至此，苏联的“制度僵化症”必然以解体的方式才能获得解决。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事实上，从新制度主义的视角来观察苏联70余年的畸形发展，最后出现的局面只能是：制度创新的动力既不可能来自基层群众，改革的能力又不可能由领导者阶层有效提供。在这种僵化的“均势”之下，偶然的因素如个人因素、国际因素就会发挥决定性影响。正是在这种形势下，戈尔巴乔夫逐渐把苏联改革引向了悲剧性的结局。前面，我们从历史纵向的角度分析苏联两个最重要的阶层对于苏联剧变的影响。为了深化理解，我们不妨再切取戈尔巴乔夫时期作为苏联剧变的一个横断面加以剖析。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏联改革已经无法从僵化的制度模式中激发起制度创新的动力，这是问题的一个方面。另一个方面，新科技革命在世界范围内的蓬勃发展及整个国际国内背景的变化，使苏联面临着不得不进行改革的困境。而这时的改革策略就变得十分重要。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;戈尔巴乔夫身为旧体制中的官员，不可避免地带有保守的一面。他没有认识到苏联困境的真正症结，这突出地表现在苏联社会经济发展战略上。苏共二十七大通过的这一战略，规定进一步增加积累，把投资重点放在机器制造业，争取以年均4.7%的速度使国民经济潜力到世纪末再翻一番。1988年，国家分配工业投资，重工业(包括军事工业)得到的资金高达90%，食品工业投资占6.3%，消费品工业仅占3.7%。后来形势恶化，才被迫转向重点抓食品、住房和消费品供应这三大涉及人民生活最迫切的问题。当时，人民群众对戈氏寄予较高期望，西方国家也不乏溢美之辞，使得他带有理想色彩的一些许诺大大提高了人民的社会参与热情。而当现有制度不能容纳人民的热情、新的制度创新又不能满足人民的要求时，社会矛盾就激化起来。戈氏在激进派和保守派之间的动摇和妥协，造成局势逐渐失控。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;戈尔巴乔夫此时的选择，我们还可以借助樊纲提出的模型予以分析。这个模型包括两个概念：可行性和可接受性。可接受性涉及人们的利益结构和利益关系及旧体制下的既得利益，而可行性更多地涉及社会的经济发展水平与经济结构的实际状况等客观经济条件。可行性问题与可接受性问题的差别在于：有的改革道路，事实上是可行的，但并不为社会上的利益集团所接受；而那些人们乐于接受的改革，则可能是行不通的。樊纲指出：“就改革方式的选择而论，最根本的问题不是什么在理论上最优的、最有效率的，而是在现实生活中什么可以被接受，即在利益冲突的社会格局下，什么样的改革方式可以被采纳，阻力不是大到无法进行改革的程度。然后，在可被接受的各种改革方式中，什么是可行的，也就是说行得通的，能够实现真正的、实际的体制变迁。”[9]按照这一模型，加上前面的分析，不难看出，在戈氏时代的苏联，渐进改革的道路首先就是不被接受。因为当时的苏联利益集团势力强大，不可能像中国改革之初那样，在不损害任何人利益的情况下“把蛋糕做大”，从而增加所有人的利益(属罕见的帕累托改进)。因此，他不得不采取激进的改革方式，从政治体制改革上寻求突破。由于戈尔巴乔夫提出的两个口号迎合了苏联人民自上世纪50年代赫鲁晓夫搞“非斯大林化”以来反思历史的要求，所以这种激进的改革方式也是行得通的(当然这里面还包括西方的渗透影响)。如前面的理论分析所表明的，这种对原有路径的突破，发展到最后便导致了苏联的解体。<p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由此我们得出初步结论：俄国是在20世纪初期落后的经济文化水平基础上，选择了社会主义的制度形式作为本国走向现代化的起点。但由于主观客观两个方面的原因，在其最初的制度设计中，已经由于权力的高度集中而隐含了“制度供给不足”与“制度供给过剩”并存的危机因素。虽然这种制度上的“先天不足”并不必然导致其制度的日益僵化，但是在苏联模式的演进中，却因其制度供给主体，即特权阶层及其领导者的“自私”和思想落伍而导致自身制度创新能力的日渐丧失。包括农民在内的、社会各阶层的制度供给主体地位的失落，使得苏联社会在半个多世纪内，一次次地丧失了改革的机遇，最终使这一模式完全失去了活力，并且在国内外各种因素的促成下，通过高成本、高代价、悲剧性的解体方式实现了制度的转换。
+</div>
+<div class="page-list">
+    <div class="pageNav" id="pageList"></div>
+</div>
+</div>
+            
+            <br class="cls">
+        </div></body></html>
