@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "flagout",
+					"strict" : false
+				},
+				{
+					"name" : "zeroout",
+					"strict" : false
+				},
+				{
+					"name" : "flagin",
+					"strict" : false
+				},
+				{
+					"name" : "flagwrite",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "zeroin",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Mar 06 15:57:22 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : rom
+Top-level Entity Name : alu
+Family : Cyclone 10 LP
+Device : 10CL006YE144C6G
+Timing Models : Final
+Total logic elements : 185 / 6,272 ( 3 % )
+    Total combinational functions : 185 / 6,272 ( 3 % )
+    Dedicated logic registers : 0 / 6,272 ( 0 % )
+Total registers : 0
+Total pins : 30 / 89 ( 34 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,158 @@
+# Reading pref.tcl
+# do rom_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/QuartusPrime/QuartusPrime/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/cpurom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:15 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/cpurom.v 
+# -- Compiling module cpurom
+# 
+# Top level modules:
+# 	cpurom
+# End time: 08:05:15 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:16 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 08:05:16 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/addrGen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:16 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/addrGen.v 
+# -- Compiling module addrGen
+# 
+# Top level modules:
+# 	addrGen
+# End time: 08:05:16 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:16 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 08:05:16 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:16 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 08:05:16 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/flag.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:16 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/flag.v 
+# -- Compiling module flag
+# 
+# Top level modules:
+# 	flag
+# End time: 08:05:16 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:17 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 08:05:17 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/mux1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:17 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/mux1.v 
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# End time: 08:05:17 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:17 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 08:05:17 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/cpuC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:17 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/cpuC.v 
+# -- Compiling module cpuC
+# 
+# Top level modules:
+# 	cpuC
+# End time: 08:05:17 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex3 {E:/QuartusPrime/Computer and Network Technology/Ex3/cpuC_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:05:17 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex3" E:/QuartusPrime/Computer and Network Technology/Ex3/cpuC_tb.v 
+# -- Compiling module cpuC_tb
+# 
+# Top level modules:
+# 	cpuC_tb
+# End time: 08:05:17 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  cpuC_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" cpuC_tb 
+# Start time: 08:05:17 on Mar 19,2025
+# Loading work.cpuC_tb
+# Loading work.cpuC
+# Loading work.mux2
+# Loading work.mux1
+# Loading work.regfile
+# Loading work.alu
+# Loading work.flag
+# Loading work.ROM
+# Loading work.addrGen
+# Loading work.cpurom
+# Loading altera_mf_ver.altsyncram
+# Loading work.controller
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position end  sim:/cpuC_tb/cpuC/scrA
+add wave -position end  sim:/cpuC_tb/cpuC/scrB
+restart -f
+run -all
+# GetModuleFileName: 找不到指定的模組。
+# 
+# 
+# End time: 08:20:27 on Mar 19,2025, Elapsed time: 0:15:10
+# Errors: 0, Warnings: 0

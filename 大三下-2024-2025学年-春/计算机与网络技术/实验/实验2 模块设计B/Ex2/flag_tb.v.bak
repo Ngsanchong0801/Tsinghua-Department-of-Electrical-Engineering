@@ -1,0 +1,13 @@
+initial begin
+clk = 0;
+rst_n = 0;
+flagwrite = 0;
+flagin = 0;
+#50.1 rst_n = 1;
+#100 flagin = 1;
+#100 flagwrite = 1;
+#100 flagwrite = 0;
+flagin = 0;
+……
+end
+……

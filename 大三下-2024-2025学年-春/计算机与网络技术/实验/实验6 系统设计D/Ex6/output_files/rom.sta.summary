@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'controller:controller|alucs[0]'
+Slack : -11.551
+TNS   : -95.963
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -10.790
+TNS   : -170.378
+
+Type  : Slow 1200mV 85C Model Setup 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : -4.232
+TNS   : -8.469
+
+Type  : Slow 1200mV 85C Model Hold 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : -0.599
+TNS   : -1.676
+
+Type  : Slow 1200mV 85C Model Hold 'controller:controller|alucs[0]'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -49.386
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'controller:controller|alucs[0]'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'controller:controller|alucs[0]'
+Slack : -10.330
+TNS   : -85.234
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -9.513
+TNS   : -149.743
+
+Type  : Slow 1200mV 0C Model Setup 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : -3.665
+TNS   : -7.226
+
+Type  : Slow 1200mV 0C Model Hold 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : -0.536
+TNS   : -1.547
+
+Type  : Slow 1200mV 0C Model Hold 'controller:controller|alucs[0]'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -49.359
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'controller:controller|alucs[0]'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'controller:controller|alucs[0]'
+Slack : -6.046
+TNS   : -49.203
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -5.477
+TNS   : -72.342
+
+Type  : Fast 1200mV 0C Model Setup 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : -2.371
+TNS   : -4.658
+
+Type  : Fast 1200mV 0C Model Hold 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : -0.350
+TNS   : -0.990
+
+Type  : Fast 1200mV 0C Model Hold 'controller:controller|alucs[0]'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -50.931
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ROM:ROM|cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated|ram_block1a13~porta_address_reg0'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'controller:controller|alucs[0]'
+Slack : 0.351
+TNS   : 0.000
+
+------------------------------------------------------------

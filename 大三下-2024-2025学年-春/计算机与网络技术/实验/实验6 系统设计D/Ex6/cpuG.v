@@ -1,0 +1,141 @@
+module cpuG(aclr,clk,rst_n,s,zeroout);
+ input aclr;
+ wire [31:0]scrA;
+ wire [31:0]scrB;
+ reg [4:0]Rs;
+ reg [4:0]Rt;
+ reg [4:0]Rd;
+ reg [5:0]Op;
+ reg [5:0]funct;
+ reg [5:0]shamt;
+ reg [25:0]addr;
+ wire [31:0]memData;
+ wire selscrB;
+ wire redges;
+ wire memtoreg;
+ reg [15:0]imm;
+ wire [31:0]immout;
+ wire regwrite;
+ wire [3:0]alucs;
+ input clk;
+ input rst_n;
+ wire flagwrite;
+ wire [4:0]nd;
+ wire [31:0]di;
+ wire [31:0]q2;
+ wire carry_out;
+ wire carry_in;
+ wire zeroin;
+ wire wren;
+ wire branch;
+ wire jump;
+ output [31:0]s;
+ output zeroout;
+ wire [31:0]q;
+ wire [7:0]pcout;
+
+ always@(posedge clk or negedge rst_n) begin
+  if(!rst_n) begin
+  end
+  else begin
+  end
+ end
+ 
+ always@(*) begin
+  Op=q[31:26];
+  Rs=q[25:21];
+  Rt=q[20:16];
+  Rd=q[15:11];
+  shamt=q[10:6];
+  funct=q[5:0];
+  imm=q[15:0];
+  addr=q[25:0];
+ end
+ 
+ moveImm moveImm(
+                 .imm(imm),
+					  .immout(immout)
+					  );
+ mux22 muxscrB(
+              .d0(q2),
+				  .d1(immout),
+				  .sel(selscrB),
+				  .y(scrB)
+				  );
+ mux12 muxnd(
+            .d0(Rt),
+				.d1(Rd),
+				.sel(redges),
+				.y(nd)
+				);
+ mux22 muxdi(
+              .d0(s),
+				  .d1(memData),
+				  .sel(memtoreg),
+				  .y(di)
+				  );
+ regfile2 regfile(
+                 .clk(clk),
+					  .rst_n(rst_n),
+					  .n1(Rs),
+					  .n2(Rt),
+					  .nd(nd),
+					  .di(di),
+					  .reg_we(regwrite),
+					  .q1(scrA),
+					  .q2(q2)
+					  );
+ alu2 alu(
+         .data_a(scrA),
+			.data_b(scrB),
+			.s(s),
+			.zero(zeroin),
+			.cs(alucs),
+			.carry_in(carry_in),
+			.carry_out(carry_out)
+			);
+ flag flag(
+           .clk(clk),
+			  .rst_n(rst_n),
+			  .zeroin(zeroin),
+			  .flagwrite(flagwrite),
+			  .flagin(carry_out),
+			  .flagout(carry_in),
+			  .zeroout(zeroout)
+			  );
+ PC2 PC2(
+	    .clk(clk),
+		 .rst_n(rst_n),
+		 .branch(branch),
+		 .jump(jump),
+		 .imm(imm),
+		 .pcout(pcout)
+		 );
+ cpurom2 cpu_rom_inst(
+			.address(pcout),
+			.clock(clk),
+			.q(q)
+			);
+ controller22 controller22(
+                       .zero(zeroin),
+                       .Op(Op),
+							  .funct(funct),
+							  .alucs(alucs),
+							  .flagwrite(flagwrite),
+							  .regwrite(regwrite),
+							  .selscrB(selscrB),
+							  .redges(redges),
+							  .memtoreg(memtoreg),
+							  .wren(wren),
+							  .branch(branch),
+							  .jump(jump)
+							  );
+ cpuram2 cpu_ram_inst(
+			            .aclr(aclr),
+			            .wren(wren),
+			            .address(s),
+			            .data(q2),
+			            .clock(clk),
+			            .q(memData)
+			            );
+endmodule

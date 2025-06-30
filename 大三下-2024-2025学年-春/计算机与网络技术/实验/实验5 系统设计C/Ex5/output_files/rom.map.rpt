@@ -1,0 +1,526 @@
+Analysis & Elaboration report for rom
+Sat Mar 29 18:27:02 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration IP Cores Summary
+  5. Source assignments for cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated
+  6. Source assignments for cpuram:cpu_ram_inst|altsyncram:altsyncram_component|altsyncram_pog1:auto_generated
+  7. Parameter Settings for User Entity Instance: cpurom:cpu_rom_inst|altsyncram:altsyncram_component
+  8. Parameter Settings for User Entity Instance: cpuram:cpu_ram_inst|altsyncram:altsyncram_component
+  9. altsyncram Parameter Settings by Entity Instance
+ 10. Analysis & Elaboration Settings
+ 11. Analysis & Elaboration Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                   ;
++------------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status      ; Successful - Sat Mar 29 18:27:02 2025       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; rom                                         ;
+; Top-level Entity Name              ; cpuF                                        ;
+; Family                             ; Cyclone 10 LP                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration IP Cores Summary                                                                     ;
++--------+--------------+---------+--------------+--------------+---------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance           ; IP Include File ;
++--------+--------------+---------+--------------+--------------+---------------------------+-----------------+
+; Altera ; RAM: 1-PORT  ; 20.1    ; N/A          ; N/A          ; |cpuF|cpuram:cpu_ram_inst ; cpuram.v        ;
+; Altera ; ROM: 1-PORT  ; 20.1    ; N/A          ; N/A          ; |cpuF|cpurom:cpu_rom_inst ; cpurom.v        ;
++--------+--------------+---------+--------------+--------------+---------------------------+-----------------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Source assignments for cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                          ;
++---------------------------------+--------------------+------+---------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                           ;
++---------------------------------+--------------------+------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Source assignments for cpuram:cpu_ram_inst|altsyncram:altsyncram_component|altsyncram_pog1:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                          ;
++---------------------------------+--------------------+------+---------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                           ;
++---------------------------------+--------------------+------+---------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: cpurom:cpu_rom_inst|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------------------+
+; Parameter Name                     ; Value                ; Type                                 ;
++------------------------------------+----------------------+--------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                              ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                       ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                              ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                              ;
+; WIDTH_A                            ; 16                   ; Signed Integer                       ;
+; WIDTHAD_A                          ; 8                    ; Signed Integer                       ;
+; NUMWORDS_A                         ; 256                  ; Signed Integer                       ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                              ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                              ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                              ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                              ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                              ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                              ;
+; WIDTH_B                            ; 1                    ; Untyped                              ;
+; WIDTHAD_B                          ; 1                    ; Untyped                              ;
+; NUMWORDS_B                         ; 1                    ; Untyped                              ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                              ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                              ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                              ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                              ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                              ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                              ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                              ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                              ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                              ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                              ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                              ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                              ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                       ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                              ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                              ;
+; BYTE_SIZE                          ; 8                    ; Untyped                              ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                              ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                              ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                              ;
+; INIT_FILE                          ; rom.hex              ; Untyped                              ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                              ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                              ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                              ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                              ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                              ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                              ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                              ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                              ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                              ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                              ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                              ;
+; DEVICE_FAMILY                      ; Cyclone 10 LP        ; Untyped                              ;
+; CBXI_PARAMETER                     ; altsyncram_km91      ; Untyped                              ;
++------------------------------------+----------------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: cpuram:cpu_ram_inst|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------------------+
+; Parameter Name                     ; Value                ; Type                                 ;
++------------------------------------+----------------------+--------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                              ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                       ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                              ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                              ;
+; WIDTH_A                            ; 8                    ; Signed Integer                       ;
+; WIDTHAD_A                          ; 8                    ; Signed Integer                       ;
+; NUMWORDS_A                         ; 256                  ; Signed Integer                       ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                              ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                              ;
+; OUTDATA_ACLR_A                     ; CLEAR0               ; Untyped                              ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                              ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                              ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                              ;
+; WIDTH_B                            ; 1                    ; Untyped                              ;
+; WIDTHAD_B                          ; 1                    ; Untyped                              ;
+; NUMWORDS_B                         ; 1                    ; Untyped                              ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                              ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                              ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                              ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                              ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                              ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                              ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                              ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                              ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                              ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                              ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                              ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                              ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                       ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                              ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                              ;
+; BYTE_SIZE                          ; 8                    ; Untyped                              ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                              ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                              ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                              ;
+; INIT_FILE                          ; UNUSED               ; Untyped                              ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                              ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                              ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                              ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                              ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                              ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                              ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                              ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                              ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                              ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                              ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                              ;
+; DEVICE_FAMILY                      ; Cyclone 10 LP        ; Untyped                              ;
+; CBXI_PARAMETER                     ; altsyncram_pog1      ; Untyped                              ;
++------------------------------------+----------------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                ;
++-------------------------------------------+-----------------------------------------------------+
+; Name                                      ; Value                                               ;
++-------------------------------------------+-----------------------------------------------------+
+; Number of entity instances                ; 2                                                   ;
+; Entity Instance                           ; cpurom:cpu_rom_inst|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                                 ;
+;     -- WIDTH_A                            ; 16                                                  ;
+;     -- NUMWORDS_A                         ; 256                                                 ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                        ;
+;     -- WIDTH_B                            ; 1                                                   ;
+;     -- NUMWORDS_B                         ; 1                                                   ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                              ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                        ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                           ;
+; Entity Instance                           ; cpuram:cpu_ram_inst|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; SINGLE_PORT                                         ;
+;     -- WIDTH_A                            ; 8                                                   ;
+;     -- NUMWORDS_A                         ; 256                                                 ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                        ;
+;     -- WIDTH_B                            ; 1                                                   ;
+;     -- NUMWORDS_B                         ; 1                                                   ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                              ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                        ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                           ;
++-------------------------------------------+-----------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                            ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                            ; cpuF               ; rom                ;
+; Family name                                                      ; Cyclone 10 LP      ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Sat Mar 29 18:26:54 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off rom -c rom --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file cpurom.v
+    Info (12023): Found entity 1: cpurom File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpurom.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file rom.v
+    Info (12023): Found entity 1: ROM File: E:/QuartusPrime/Computer and Network Technology/Ex5/ROM.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file addrgen.v
+    Info (12023): Found entity 1: addrGen File: E:/QuartusPrime/Computer and Network Technology/Ex5/addrGen.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file rom_tb.v
+    Info (12023): Found entity 1: ROM_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/ROM_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file rom2.v
+    Info (12023): Found entity 1: ROM2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/ROM2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file rom2_tb.v
+    Info (12023): Found entity 1: ROM2_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/ROM2_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file cpurom2.v
+    Info (12023): Found entity 1: cpurom2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpurom2.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file regfile.v
+    Info (12023): Found entity 1: regfile File: E:/QuartusPrime/Computer and Network Technology/Ex5/regfile.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file regfile_tb.v
+    Info (12023): Found entity 1: regfile_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/regfile_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file regfile2.v
+    Info (12023): Found entity 1: regfile2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/regfile2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file regfile2_tb.v
+    Info (12023): Found entity 1: regfile2_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/regfile2_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: alu File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.v
+    Info (12023): Found entity 1: alu_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file alu2.v
+    Info (12023): Found entity 1: alu2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu2_tb.v
+    Info (12023): Found entity 1: alu2_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu2_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file cpuram.v
+    Info (12023): Found entity 1: cpuram File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuram.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file addrdatagen.v
+    Info (12023): Found entity 1: addrDataGen File: E:/QuartusPrime/Computer and Network Technology/Ex5/addrDataGen.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram.v
+    Info (12023): Found entity 1: RAM File: E:/QuartusPrime/Computer and Network Technology/Ex5/RAM.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram_tb.v
+    Info (12023): Found entity 1: RAM_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/RAM_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file cpuram2.v
+    Info (12023): Found entity 1: cpuram2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuram2.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file addrdatagen2.v
+    Info (12023): Found entity 1: addrDataGen2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/addrDataGen2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram2.v
+    Info (12023): Found entity 1: RAM2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/RAM2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram2_tb.v
+    Info (12023): Found entity 1: RAM2_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/RAM2_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file flag.v
+    Info (12023): Found entity 1: flag File: E:/QuartusPrime/Computer and Network Technology/Ex5/flag.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpua.v
+    Info (12023): Found entity 1: cpuA File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuA.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpua_tb.v
+    Info (12023): Found entity 1: cpuA_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuA_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file flag_tb.v
+    Info (12023): Found entity 1: flag_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/flag_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file mux2.v
+    Info (12023): Found entity 1: mux2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/mux2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux2_tb.v
+    Info (12023): Found entity 1: mux2_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/mux2_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file mux1.v
+    Info (12023): Found entity 1: mux1 File: E:/QuartusPrime/Computer and Network Technology/Ex5/mux1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpub.v
+    Info (12023): Found entity 1: cpuB File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuB.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpub_tb.v
+    Info (12023): Found entity 1: cpuB_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuB_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file controller.v
+    Info (12023): Found entity 1: controller File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpuc.v
+    Info (12023): Found entity 1: cpuC File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuC.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpuc_tb.v
+    Info (12023): Found entity 1: cpuC_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuC_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file cpud.v
+    Info (12023): Found entity 1: cpuD File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuD.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpud_tb.v
+    Info (12023): Found entity 1: cpuD_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuD_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file cpue.v
+    Info (12023): Found entity 1: cpuE File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuE.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpue_tb.v
+    Info (12023): Found entity 1: cpuE_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuE_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file pc.v
+    Info (12023): Found entity 1: PC File: E:/QuartusPrime/Computer and Network Technology/Ex5/PC.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controller2.v
+    Info (12023): Found entity 1: controller2 File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpuf.v
+    Info (12023): Found entity 1: cpuF File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpuf_tb.v
+    Info (12023): Found entity 1: cpuF_tb File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF_tb.v Line: 2
+Warning (10236): Verilog HDL Implicit Net warning at cpuC.v(96): created implicit net for "redges" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuC.v Line: 96
+Info (12127): Elaborating entity "cpuF" for the top level hierarchy
+Info (12128): Elaborating entity "mux2" for hierarchy "mux2:muxscrB" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 53
+Info (12128): Elaborating entity "mux1" for hierarchy "mux1:muxnd" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 59
+Info (12128): Elaborating entity "regfile" for hierarchy "regfile:regfile" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 76
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 85
+Warning (10230): Verilog HDL assignment warning at alu.v(31): truncated value with size 32 to match size of target (8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 31
+Warning (10230): Verilog HDL assignment warning at alu.v(35): truncated value with size 32 to match size of target (8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 35
+Warning (10270): Verilog HDL Case Statement warning at alu.v(9): incomplete case statement has no default case item File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 9
+Warning (10240): Verilog HDL Always Construct warning at alu.v(8): inferring latch(es) for variable "s", which holds its previous value in one or more paths through the always construct File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Warning (10240): Verilog HDL Always Construct warning at alu.v(8): inferring latch(es) for variable "carry_out", which holds its previous value in one or more paths through the always construct File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "carry_out" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[0]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[1]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[2]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[3]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[4]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[5]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[6]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (10041): Inferred latch for "s[7]" at alu.v(8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/alu.v Line: 8
+Info (12128): Elaborating entity "flag" for hierarchy "flag:flag" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 94
+Info (12128): Elaborating entity "PC" for hierarchy "PC:PC" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 102
+Warning (10230): Verilog HDL assignment warning at PC.v(21): truncated value with size 32 to match size of target (8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/PC.v Line: 21
+Warning (10230): Verilog HDL assignment warning at PC.v(24): truncated value with size 32 to match size of target (8) File: E:/QuartusPrime/Computer and Network Technology/Ex5/PC.v Line: 24
+Info (12128): Elaborating entity "cpurom" for hierarchy "cpurom:cpu_rom_inst" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 107
+Info (12128): Elaborating entity "altsyncram" for hierarchy "cpurom:cpu_rom_inst|altsyncram:altsyncram_component" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpurom.v Line: 82
+Info (12130): Elaborated megafunction instantiation "cpurom:cpu_rom_inst|altsyncram:altsyncram_component" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpurom.v Line: 82
+Info (12133): Instantiated megafunction "cpurom:cpu_rom_inst|altsyncram:altsyncram_component" with the following parameter: File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpurom.v Line: 82
+    Info (12134): Parameter "address_aclr_a" = "NONE"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "rom.hex"
+    Info (12134): Parameter "intended_device_family" = "Cyclone 10 LP"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "256"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "widthad_a" = "8"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_km91.tdf
+    Info (12023): Found entity 1: altsyncram_km91 File: E:/QuartusPrime/Computer and Network Technology/Ex5/db/altsyncram_km91.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_km91" for hierarchy "cpurom:cpu_rom_inst|altsyncram:altsyncram_component|altsyncram_km91:auto_generated" File: e:/quartusprime/quartusprime/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12128): Elaborating entity "controller2" for hierarchy "controller2:controller2" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 120
+Warning (10240): Verilog HDL Always Construct warning at controller2.v(22): inferring latch(es) for variable "selscrB", which holds its previous value in one or more paths through the always construct File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 22
+Warning (10240): Verilog HDL Always Construct warning at controller2.v(22): inferring latch(es) for variable "redges", which holds its previous value in one or more paths through the always construct File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 22
+Warning (10240): Verilog HDL Always Construct warning at controller2.v(22): inferring latch(es) for variable "memtoreg", which holds its previous value in one or more paths through the always construct File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 22
+Warning (10240): Verilog HDL Always Construct warning at controller2.v(22): inferring latch(es) for variable "alucs", which holds its previous value in one or more paths through the always construct File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 22
+Warning (10240): Verilog HDL Always Construct warning at controller2.v(22): inferring latch(es) for variable "flagwrite", which holds its previous value in one or more paths through the always construct File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 22
+Info (10041): Inferred latch for "flagwrite" at controller2.v(38) File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 38
+Info (10041): Inferred latch for "alucs[0]" at controller2.v(38) File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 38
+Info (10041): Inferred latch for "alucs[1]" at controller2.v(38) File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 38
+Info (10041): Inferred latch for "alucs[2]" at controller2.v(38) File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 38
+Info (10041): Inferred latch for "memtoreg" at controller2.v(38) File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 38
+Info (10041): Inferred latch for "redges" at controller2.v(38) File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 38
+Info (10041): Inferred latch for "selscrB" at controller2.v(38) File: E:/QuartusPrime/Computer and Network Technology/Ex5/controller2.v Line: 38
+Info (12128): Elaborating entity "cpuram" for hierarchy "cpuram:cpu_ram_inst" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuF.v Line: 128
+Info (12128): Elaborating entity "altsyncram" for hierarchy "cpuram:cpu_ram_inst|altsyncram:altsyncram_component" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuram.v Line: 89
+Info (12130): Elaborated megafunction instantiation "cpuram:cpu_ram_inst|altsyncram:altsyncram_component" File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuram.v Line: 89
+Info (12133): Instantiated megafunction "cpuram:cpu_ram_inst|altsyncram:altsyncram_component" with the following parameter: File: E:/QuartusPrime/Computer and Network Technology/Ex5/cpuram.v Line: 89
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "intended_device_family" = "Cyclone 10 LP"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "256"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "CLEAR0"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "widthad_a" = "8"
+    Info (12134): Parameter "width_a" = "8"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_pog1.tdf
+    Info (12023): Found entity 1: altsyncram_pog1 File: E:/QuartusPrime/Computer and Network Technology/Ex5/db/altsyncram_pog1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_pog1" for hierarchy "cpuram:cpu_ram_inst|altsyncram:altsyncram_component|altsyncram_pog1:auto_generated" File: e:/quartusprime/quartusprime/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 4726 megabytes
+    Info: Processing ended: Sat Mar 29 18:27:02 2025
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:21
+
+

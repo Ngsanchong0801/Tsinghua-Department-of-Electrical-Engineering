@@ -1,0 +1,43 @@
+`timescale 1ns/1ps
+module ALU2_tb;
+ reg[31:0] data_a,data_b;
+ reg[2:0] cs;
+ reg carry_in;
+ wire[31:0]s;
+ wire zero;
+ wire carry_out;
+ parameter AND =3'b000,
+			  OR  =3'b001,
+			  ADD =3'b010,
+			  SUB =3'b011,
+			  SLT =3'b100,
+			  SUBC=3'b101,
+			  ADDC=3'b110;
+  initial begin
+   data_a = 0;
+	data_b = 0;
+	cs = 0;
+	carry_in = 0;
+	#100 data_a = 32'h1f;
+	     data_b = 32'hf1;
+		  cs = AND;
+	#100 cs = OR;
+	#100 cs = ADD;
+	#100 cs = SUB;
+	#100 cs = SLT;
+	#100 cs = SUBC;
+	     carry_in = 0;
+	#100 cs = ADDC;
+	     carry_in = 1;
+	#100;
+  end
+  ALU2 ALU2(
+         .data_a(data_a),
+			.data_b(data_b),
+			.s(s),
+			.zero(zero),
+			.cs(cs),
+			.carry_in(carry_in),
+			.carry_out(carry_out)
+			);
+endmodule

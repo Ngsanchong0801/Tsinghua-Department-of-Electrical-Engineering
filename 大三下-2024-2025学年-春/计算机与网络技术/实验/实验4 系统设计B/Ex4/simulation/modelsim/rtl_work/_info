@@ -1,0 +1,303 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/QuartusPrime/Computer and Network Technology/Ex4/simulation/modelsim
+vaddrGen
+Z1 !s110 1742811946
+!i10b 1
+!s100 1RS4=UY;=]K=jN5enI7jN2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@=AdU3Ta`FQ3c0`Wa1QY01
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742289729
+8E:/QuartusPrime/Computer and Network Technology/Ex4/addrGen.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/addrGen.v
+!i122 2
+L0 1 16
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1742811946.000000
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/addrGen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/addrGen.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4}
+Z8 tCvgOpt 0
+naddr@gen
+valu
+R1
+!i10b 1
+!s100 z=8?6ZJz;V1Sm1ki4e:<R3
+R2
+I`zeUAGPml:3`M2UM^FnP43
+R3
+R0
+w1742289440
+8E:/QuartusPrime/Computer and Network Technology/Ex4/alu.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/alu.v
+!i122 4
+L0 1 50
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/alu.v|
+!i113 1
+R6
+R7
+R8
+vcontroller
+Z9 !s110 1742811947
+!i10b 1
+!s100 fg[R?NGoa21zY22[P0KDV1
+R2
+ISV[Vg>0>6Ko<JO;KQe:Uj1
+R3
+R0
+w1742807153
+8E:/QuartusPrime/Computer and Network Technology/Ex4/controller.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/controller.v
+!i122 9
+L0 1 57
+R4
+r1
+!s85 0
+31
+Z10 !s108 1742811947.000000
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/controller.v|
+!i113 1
+R6
+R7
+R8
+vcpuE
+R9
+!i10b 1
+!s100 A?4ei_<[ik6dIk3e1<?n_1
+R2
+IhHDCX0Ae2YYI[SgA2:^iJ2
+R3
+R0
+w1742809802
+8E:/QuartusPrime/Computer and Network Technology/Ex4/cpuE.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/cpuE.v
+!i122 10
+L0 1 110
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/cpuE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/cpuE.v|
+!i113 1
+R6
+R7
+R8
+ncpu@e
+vcpuE_tb
+R9
+!i10b 1
+!s100 c>L;]Z7UR=KFT=73@Cl@b3
+R2
+I<h^g6RiPaL?5zi9A?V^Y_1
+R3
+R0
+w1742809784
+8E:/QuartusPrime/Computer and Network Technology/Ex4/cpuE_tb.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/cpuE_tb.v
+!i122 11
+L0 2 21
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/cpuE_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/cpuE_tb.v|
+!i113 1
+R6
+R7
+R8
+ncpu@e_tb
+vcpuram
+R9
+!i10b 1
+!s100 <L@6InSC51CBNbM1HiAVE3
+R2
+IMX>BmmgFY`X2b1^5cf_F[1
+R3
+R0
+w1741695530
+8E:/QuartusPrime/Computer and Network Technology/Ex4/cpuram.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/cpuram.v
+!i122 5
+L0 40 68
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/cpuram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/cpuram.v|
+!i113 1
+R6
+R7
+R8
+vcpurom
+R1
+!i10b 1
+!s100 SO:P2b[GPUAeg@eQ0Zz?h1
+R2
+Ic_JEfic<ThKnh4@;HSKQ>0
+R3
+R0
+w1741136733
+8E:/QuartusPrime/Computer and Network Technology/Ex4/cpurom.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/cpurom.v
+!i122 0
+L0 40 66
+R4
+r1
+!s85 0
+31
+!s108 1742811945.000000
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/cpurom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/cpurom.v|
+!i113 1
+R6
+R7
+R8
+vflag
+R9
+!i10b 1
+!s100 IOj@4ffb`J2H3cai8<5?e3
+R2
+IHzABEJ6`?b9EdhRDUFh7K2
+R3
+R0
+w1741698825
+8E:/QuartusPrime/Computer and Network Technology/Ex4/flag.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/flag.v
+!i122 6
+L0 1 21
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/flag.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/flag.v|
+!i113 1
+R6
+R7
+R8
+vmux1
+R9
+!i10b 1
+!s100 ?MzCSko<CP9ZEC@G06ozT3
+R2
+IoZNZa9d_Z8P`lgDkk1XoV0
+R3
+R0
+w1741739939
+8E:/QuartusPrime/Computer and Network Technology/Ex4/mux1.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/mux1.v
+!i122 8
+Z11 L0 1 14
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/mux1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/mux1.v|
+!i113 1
+R6
+R7
+R8
+vmux2
+R9
+!i10b 1
+!s100 D]Whi7Ih@ej4Bz<aH=<aW3
+R2
+In4nMdQDBJPe9NK3mN8BGm0
+R3
+R0
+w1741738668
+8E:/QuartusPrime/Computer and Network Technology/Ex4/mux2.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/mux2.v
+!i122 7
+R11
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/mux2.v|
+!i113 1
+R6
+R7
+R8
+vregfile
+R1
+!i10b 1
+!s100 Wal]Y9<MlgZ2gRSjA3S7B2
+R2
+IJiX1mROBQVA<=OF8VOWl50
+R3
+R0
+w1742294379
+8E:/QuartusPrime/Computer and Network Technology/Ex4/regfile.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/regfile.v
+!i122 3
+L0 1 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/regfile.v|
+!i113 1
+R6
+R7
+R8
+vROM
+R1
+!i10b 1
+!s100 6I58@ZVfb;:^]UD;@GIYY0
+R2
+IR@W8m0O:^3JSAYJo@moL=0
+R3
+R0
+w1742289333
+8E:/QuartusPrime/Computer and Network Technology/Ex4/ROM.v
+FE:/QuartusPrime/Computer and Network Technology/Ex4/ROM.v
+!i122 1
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex4/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex4|E:/QuartusPrime/Computer and Network Technology/Ex4/ROM.v|
+!i113 1
+R6
+R7
+R8
+n@r@o@m

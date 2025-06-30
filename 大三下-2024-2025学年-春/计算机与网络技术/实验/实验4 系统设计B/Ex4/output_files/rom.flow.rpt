@@ -1,0 +1,188 @@
+Flow report for rom
+Mon Mar 24 18:23:37 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Mon Mar 24 18:23:37 2025       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; rom                                         ;
+; Top-level Entity Name              ; cpuE                                        ;
+; Family                             ; Cyclone 10 LP                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/24/2025 18:23:29 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; rom                 ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 2543488198581.174281180927828          ; --            ; --          ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ROM_tb                            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; regfile_tb                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; regfile2_tb                       ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; flag_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; cpuC_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; RAM_tb                            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; cpuA_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; cpuB_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; cpuD_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; cpuE_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ROM2_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; mux2_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; RAM2_tb                           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; alu_tb                            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; alu2_tb                           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; cpuD_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; ROM_tb.v                               ; --            ; --          ; ROM_tb                            ;
+; EDA_TEST_BENCH_FILE                  ; regfile_tb.v                           ; --            ; --          ; regfile_tb                        ;
+; EDA_TEST_BENCH_FILE                  ; regfile2_tb.v                          ; --            ; --          ; regfile2_tb                       ;
+; EDA_TEST_BENCH_FILE                  ; flag_tb.v                              ; --            ; --          ; flag_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; cpuC_tb.v                              ; --            ; --          ; cpuC_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; RAM_tb.v                               ; --            ; --          ; RAM_tb                            ;
+; EDA_TEST_BENCH_FILE                  ; cpuA_tb.v                              ; --            ; --          ; cpuA_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; cpuB_tb.v                              ; --            ; --          ; cpuB_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; cpuD_tb.v                              ; --            ; --          ; cpuD_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; cpuE_tb.v                              ; --            ; --          ; cpuE_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; ROM2_tb.v                              ; --            ; --          ; ROM2_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; mux2_tb.v                              ; --            ; --          ; mux2_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; RAM2_tb.v                              ; --            ; --          ; RAM2_tb                           ;
+; EDA_TEST_BENCH_FILE                  ; alu_tb.v                               ; --            ; --          ; alu_tb                            ;
+; EDA_TEST_BENCH_FILE                  ; alu2_tb.v                              ; --            ; --          ; alu2_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ROM_tb                                 ; --            ; --          ; ROM_tb                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regfile_tb                             ; --            ; --          ; regfile_tb                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regfile2_tb                            ; --            ; --          ; regfile2_tb                       ;
+; EDA_TEST_BENCH_MODULE_NAME           ; flag_tb                                ; --            ; --          ; flag_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; cpuC_tb                                ; --            ; --          ; cpuC_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; RAM_tb                                 ; --            ; --          ; RAM_tb                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; cpuA_tb                                ; --            ; --          ; cpuA_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; cpuB_tb                                ; --            ; --          ; cpuB_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; cpuD_tb                                ; --            ; --          ; cpuD_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; cpuE_tb                                ; --            ; --          ; cpuE_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ROM2_tb                                ; --            ; --          ; ROM2_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mux2_tb                                ; --            ; --          ; mux2_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; RAM2_tb                                ; --            ; --          ; RAM2_tb                           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; alu_tb                                 ; --            ; --          ; alu_tb                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; alu2_tb                                ; --            ; --          ; alu2_tb                           ;
+; EDA_TEST_BENCH_NAME                  ; ROM_tb                                 ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; ROM2_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; regfile_tb                             ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; regfile2_tb                            ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; alu_tb                                 ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; alu2_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; RAM_tb                                 ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; RAM2_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; flag_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; cpuA_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; mux2_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; cpuB_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; cpuC_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; cpuD_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; cpuE_tb                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
+; MISC_FILE                            ; cpurom_inst.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; cpurom_bb.v                            ; --            ; --          ; --                                ;
+; MISC_FILE                            ; cpurom2_inst.v                         ; --            ; --          ; --                                ;
+; MISC_FILE                            ; cpurom2_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; cpuram_inst.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; cpuram_bb.v                            ; --            ; --          ; --                                ;
+; MISC_FILE                            ; cpuram2_inst.v                         ; --            ; --          ; --                                ;
+; MISC_FILE                            ; cpuram2_bb.v                           ; --            ; --          ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; cpuE        ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; cpuE        ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; cpuE        ; Top                               ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                     ; cpuE                                   ; rom           ; --          ; --                                ;
++--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4728 MB             ; 00:00:22                           ;
+; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:22                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; Ngsanchong       ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off rom -c rom --analysis_and_elaboration
+
+
+

@@ -1,0 +1,109 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/QuartusPrime/Computer and Network Technology/Ex2/simulation/modelsim
+valu
+Z1 !s110 1741740588
+!i10b 1
+!s100 GLVnZ9IMXaJgfk^m4Yoeg1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ien50Pm?Wi7PeK[K2lDQM10
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1741247443
+8E:/QuartusPrime/Computer and Network Technology/Ex2/alu.v
+FE:/QuartusPrime/Computer and Network Technology/Ex2/alu.v
+!i122 0
+L0 1 50
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1741740588.000000
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex2/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2|E:/QuartusPrime/Computer and Network Technology/Ex2/alu.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2}
+Z8 tCvgOpt 0
+vcpuA
+Z9 !s110 1741740589
+!i10b 1
+!s100 @@?Qhbd@AT[IKafnKE5<01
+R2
+I^EJ]H8J^Yn@<fd?V>1R883
+R3
+R0
+w1741699751
+8E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA.v
+FE:/QuartusPrime/Computer and Network Technology/Ex2/cpuA.v
+!i122 2
+L0 1 37
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2|E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA.v|
+!i113 1
+R6
+R7
+R8
+ncpu@a
+vcpuA_tb
+R9
+!i10b 1
+!s100 06YWPUU_d:oX>aP^LhD?f1
+R2
+IzM;jK284kQfV5cL^<M>:g1
+R3
+R0
+w1741698969
+8E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA_tb.v
+FE:/QuartusPrime/Computer and Network Technology/Ex2/cpuA_tb.v
+!i122 3
+L0 2 55
+R4
+r1
+!s85 0
+31
+!s108 1741740589.000000
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2|E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA_tb.v|
+!i113 1
+R6
+R7
+R8
+ncpu@a_tb
+vflag
+R1
+!i10b 1
+!s100 IOj@4ffb`J2H3cai8<5?e3
+R2
+IO:3J_U:]Ule_J52oOf_@F2
+R3
+R0
+w1741698825
+8E:/QuartusPrime/Computer and Network Technology/Ex2/flag.v
+FE:/QuartusPrime/Computer and Network Technology/Ex2/flag.v
+!i122 1
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex2/flag.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2|E:/QuartusPrime/Computer and Network Technology/Ex2/flag.v|
+!i113 1
+R6
+R7
+R8

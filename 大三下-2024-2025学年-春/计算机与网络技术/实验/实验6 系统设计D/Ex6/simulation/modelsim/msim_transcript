@@ -1,0 +1,170 @@
+# Reading pref.tcl
+# do rom_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/QuartusPrime/QuartusPrime/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/cpurom2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:07 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/cpurom2.v 
+# -- Compiling module cpurom2
+# 
+# Top level modules:
+# 	cpurom2
+# End time: 09:28:07 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/regfile2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:08 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/regfile2.v 
+# -- Compiling module regfile2
+# 
+# Top level modules:
+# 	regfile2
+# End time: 09:28:08 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/alu2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:08 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/alu2.v 
+# -- Compiling module alu2
+# ** Warning: E:/QuartusPrime/Computer and Network Technology/Ex6/alu2.v(12): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# ** Warning: E:/QuartusPrime/Computer and Network Technology/Ex6/alu2.v(38): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# Top level modules:
+# 	alu2
+# End time: 09:28:08 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/cpuram2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:08 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/cpuram2.v 
+# -- Compiling module cpuram2
+# 
+# Top level modules:
+# 	cpuram2
+# End time: 09:28:08 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/flag.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:08 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/flag.v 
+# -- Compiling module flag
+# 
+# Top level modules:
+# 	flag
+# End time: 09:28:08 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/PC2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:08 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/PC2.v 
+# -- Compiling module PC2
+# 
+# Top level modules:
+# 	PC2
+# End time: 09:28:09 on Apr 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/mux12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:09 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/mux12.v 
+# -- Compiling module mux12
+# 
+# Top level modules:
+# 	mux12
+# End time: 09:28:09 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/mux22.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:09 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/mux22.v 
+# -- Compiling module mux22
+# 
+# Top level modules:
+# 	mux22
+# End time: 09:28:09 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/moveImm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:09 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/moveImm.v 
+# -- Compiling module moveImm
+# 
+# Top level modules:
+# 	moveImm
+# End time: 09:28:09 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/cpuG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:09 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/cpuG.v 
+# -- Compiling module cpuG
+# 
+# Top level modules:
+# 	cpuG
+# End time: 09:28:09 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/controller22.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:09 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/controller22.v 
+# -- Compiling module controller22
+# 
+# Top level modules:
+# 	controller22
+# End time: 09:28:09 on Apr 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex6 {E:/QuartusPrime/Computer and Network Technology/Ex6/cpuG_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:28:09 on Apr 09,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex6" E:/QuartusPrime/Computer and Network Technology/Ex6/cpuG_tb.v 
+# -- Compiling module cpuG_tb
+# 
+# Top level modules:
+# 	cpuG_tb
+# End time: 09:28:10 on Apr 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  cpuG_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" cpuG_tb 
+# Start time: 09:28:10 on Apr 09,2025
+# Loading work.cpuG_tb
+# Loading work.cpuG
+# Loading work.moveImm
+# Loading work.mux22
+# Loading work.mux12
+# Loading work.regfile2
+# Loading work.alu2
+# Loading work.flag
+# Loading work.PC2
+# Loading work.cpurom2
+# Loading altera_mf_ver.altsyncram
+# Loading work.controller22
+# Loading work.cpuram2
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'alucs'. The port definition is at: E:/QuartusPrime/Computer and Network Technology/Ex6/controller22.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpuG_tb/cpuG/controller22 File: E:/QuartusPrime/Computer and Network Technology/Ex6/cpuG.v Line: 119
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'address'. The port definition is at: E:/QuartusPrime/Computer and Network Technology/Ex6/cpuram2.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /cpuG_tb/cpuG/cpu_ram_inst File: E:/QuartusPrime/Computer and Network Technology/Ex6/cpuG.v Line: 133
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Module controller22 at E:/QuartusPrime/Computer and Network Technology/Ex6/controller22.v line 22
+# End time: 09:28:38 on Apr 09,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2

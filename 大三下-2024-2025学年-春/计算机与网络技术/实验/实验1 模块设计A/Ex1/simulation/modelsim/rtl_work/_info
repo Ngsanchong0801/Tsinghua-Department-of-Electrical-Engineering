@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/QuartusPrime/Computer and Network Technology/Ex1/simulation/modelsim
+valu2
+Z1 !s110 1741249000
+!i10b 1
+!s100 Wj^Y^9@dOfZz@J;ShNYkF3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7hT6[N2ma81cN1GB27K]21
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1741248910
+8E:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v
+FE:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v
+!i122 0
+L0 1 50
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1741249000.000000
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex1|E:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+E:/QuartusPrime/Computer and Network Technology/Ex1}
+Z8 tCvgOpt 0
+valu2_tb
+R1
+!i10b 1
+!s100 =45gzzARAB8ZOjRF74]l?0
+R2
+Ifio5J[Sm;_:l;zH=7l9MC3
+R3
+R0
+w1741248956
+8E:/QuartusPrime/Computer and Network Technology/Ex1/alu2_tb.v
+FE:/QuartusPrime/Computer and Network Technology/Ex1/alu2_tb.v
+!i122 1
+L0 2 42
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/QuartusPrime/Computer and Network Technology/Ex1/alu2_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QuartusPrime/Computer and Network Technology/Ex1|E:/QuartusPrime/Computer and Network Technology/Ex1/alu2_tb.v|
+!i113 1
+R6
+R7
+R8

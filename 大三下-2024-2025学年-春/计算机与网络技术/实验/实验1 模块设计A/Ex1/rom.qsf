@@ -1,0 +1,100 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 08:52:02  February 26, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		rom_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone 10 LP"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY alu2
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:52:02  FEBRUARY 26, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name HEX_FILE rom.hex
+set_global_assignment -name QIP_FILE cpurom.qip
+set_global_assignment -name VERILOG_FILE ROM.v
+set_global_assignment -name VERILOG_FILE addrGen.v
+set_global_assignment -name VERILOG_FILE ROM_tb.v
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH alu2_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME ROM_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id ROM_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME ROM_tb -section_id ROM_tb
+set_global_assignment -name HEX_FILE rom2.hex
+set_global_assignment -name VERILOG_FILE ROM2.v
+set_global_assignment -name VERILOG_FILE ROM2_tb.v
+set_global_assignment -name QIP_FILE cpurom2.qip
+set_global_assignment -name EDA_TEST_BENCH_NAME ROM2_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id ROM2_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME ROM2_tb -section_id ROM2_tb
+set_global_assignment -name VERILOG_FILE regfile.v
+set_global_assignment -name VERILOG_FILE regfile_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME regfile_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id regfile_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME regfile_tb -section_id regfile_tb
+set_global_assignment -name VERILOG_FILE regfile2.v
+set_global_assignment -name VERILOG_FILE regfile2_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME regfile2_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id regfile2_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME regfile2_tb -section_id regfile2_tb
+set_global_assignment -name VERILOG_FILE alu.v
+set_global_assignment -name VERILOG_FILE alu_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME alu_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id alu_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME alu_tb -section_id alu_tb
+set_global_assignment -name VERILOG_FILE alu2.v
+set_global_assignment -name VERILOG_FILE alu2_tb.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE ROM_tb.v -section_id ROM_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE ROM2_tb.v -section_id ROM2_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE regfile_tb.v -section_id regfile_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE regfile2_tb.v -section_id regfile2_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE alu_tb.v -section_id alu_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME alu2_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id alu2_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME alu2_tb -section_id alu2_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE alu2_tb.v -section_id alu2_tb

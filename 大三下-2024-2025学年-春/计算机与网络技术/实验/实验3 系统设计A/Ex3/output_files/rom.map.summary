@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 18 18:31:00 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : rom
+Top-level Entity Name : cpuC
+Family : Cyclone 10 LP
+Total logic elements : 261
+    Total combinational functions : 243
+    Dedicated logic registers : 42
+Total registers : 42
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

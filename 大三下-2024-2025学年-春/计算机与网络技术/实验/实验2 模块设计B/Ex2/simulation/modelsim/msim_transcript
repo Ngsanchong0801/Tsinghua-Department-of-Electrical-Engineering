@@ -1,0 +1,70 @@
+# Reading pref.tcl
+# do rom_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/QuartusPrime/QuartusPrime/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex2 {E:/QuartusPrime/Computer and Network Technology/Ex2/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:49:48 on Mar 12,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2" E:/QuartusPrime/Computer and Network Technology/Ex2/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 08:49:48 on Mar 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex2 {E:/QuartusPrime/Computer and Network Technology/Ex2/flag.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:49:48 on Mar 12,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2" E:/QuartusPrime/Computer and Network Technology/Ex2/flag.v 
+# -- Compiling module flag
+# 
+# Top level modules:
+# 	flag
+# End time: 08:49:48 on Mar 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex2 {E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:49:48 on Mar 12,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2" E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA.v 
+# -- Compiling module cpuA
+# 
+# Top level modules:
+# 	cpuA
+# End time: 08:49:49 on Mar 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex2 {E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:49:49 on Mar 12,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex2" E:/QuartusPrime/Computer and Network Technology/Ex2/cpuA_tb.v 
+# -- Compiling module cpuA_tb
+# 
+# Top level modules:
+# 	cpuA_tb
+# End time: 08:49:49 on Mar 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  cpuA_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" cpuA_tb 
+# Start time: 08:49:49 on Mar 12,2025
+# Loading work.cpuA_tb
+# Loading work.cpuA
+# Loading work.alu
+# Loading work.flag
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 09:22:38 on Mar 12,2025, Elapsed time: 0:32:49
+# Errors: 0, Warnings: 0

@@ -1,0 +1,1 @@
+module addrGen(clk,rst_n,addr);

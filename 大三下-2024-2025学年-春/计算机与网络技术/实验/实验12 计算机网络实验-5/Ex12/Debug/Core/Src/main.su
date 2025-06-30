@@ -1,0 +1,14 @@
+../Core/Src/main.c:81:6:GenerateWaveform	32	static
+../Core/Src/main.c:97:6:HAL_ADC_ConvCpltCallback	16	static
+../Core/Src/main.c:103:6:ProcessADCData	24	static
+../Core/Src/main.c:115:6:PerformFFT	56	static
+../Core/Src/main.c:135:6:AnalyzeHarmonics	40	static
+../Core/Src/main.c:150:7:FindFundamentalFrequency	40	static
+../Core/Src/main.c:169:6:SendAnalysisResults	184	static
+../Core/Src/main.c:191:5:main	16	static
+../Core/Src/main.c:212:6:SystemClock_Config	88	static
+../Core/Src/main.c:234:13:MX_GPIO_Init	32	static
+../Core/Src/main.c:245:13:MX_DAC1_Init	56	static
+../Core/Src/main.c:260:13:MX_ADC1_Init	40	static
+../Core/Src/main.c:286:13:MX_TIM6_Init	24	static
+../Core/Src/main.c:302:6:Error_Handler	4	static,ignoring_inline_asm

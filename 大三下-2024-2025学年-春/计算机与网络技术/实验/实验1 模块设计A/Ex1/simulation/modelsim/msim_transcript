@@ -1,0 +1,50 @@
+# Reading pref.tcl
+# do rom_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/QuartusPrime/QuartusPrime/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex1 {E:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:40 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex1" E:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v 
+# -- Compiling module alu2
+# ** Warning: E:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v(12): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# ** Warning: E:/QuartusPrime/Computer and Network Technology/Ex1/alu2.v(38): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# Top level modules:
+# 	alu2
+# End time: 16:16:40 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# 
+# vlog -vlog01compat -work work +incdir+E:/QuartusPrime/Computer\ and\ Network\ Technology/Ex1 {E:/QuartusPrime/Computer and Network Technology/Ex1/alu2_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:40 on Mar 06,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/QuartusPrime/Computer and Network Technology/Ex1" E:/QuartusPrime/Computer and Network Technology/Ex1/alu2_tb.v 
+# -- Compiling module alu2_tb
+# 
+# Top level modules:
+# 	alu2_tb
+# End time: 16:16:40 on Mar 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  alu2_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" alu2_tb 
+# Start time: 16:16:40 on Mar 06,2025
+# Loading work.alu2_tb
+# Loading work.alu2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 16:21:03 on Mar 06,2025, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 0
