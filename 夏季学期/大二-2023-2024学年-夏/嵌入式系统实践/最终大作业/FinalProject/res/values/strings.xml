@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cal">Cal</string>
+    <string name="title_activity_check">Check</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_chose">Chose</string>
+    <string name="title_activity_note">Note</string>
+    <string name="title_activity_cal2">Cal2</string>
+    <string name="title_activity_cal3">Cal3</string>
+
+</resources>

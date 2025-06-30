@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.finalproject.Check" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:text="高中數學公式大全" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:text="高中物理公式大全" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="百度百科" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:text="谷歌" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清華大學" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:text="北京大學" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="麻省理工學院" />
+
+</LinearLayout>

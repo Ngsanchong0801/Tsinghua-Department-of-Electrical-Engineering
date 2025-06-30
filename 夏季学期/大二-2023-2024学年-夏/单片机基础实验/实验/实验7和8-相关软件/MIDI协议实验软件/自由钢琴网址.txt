@@ -1,0 +1,4 @@
+自由钢琴网址：
+www.autopiano.cn
+
+需用Edge浏览器打开，火狐firefox不支持midi设备。
