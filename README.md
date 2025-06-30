@@ -16,6 +16,7 @@
 - [courseX](https://tsinghua.app/courses)  
 - [清华大学电子教学参考书服务平台辅助脚本](https://github.com/A1phaN/tsinghua-ereserves-lib-downloader?tab=readme-ov-file)  
 ## 实用链结
-- [THU手册](https://yourschool.cc/thubook/)  
+- [THU手册](https://yourschool.cc/thubook/)
+- [THU选课社区](https://yourschool.cc/thucourse/courses)
 - [华清大学课程攻略共享计划](https://in.closed.social:9443/pastExam/login/)  
-- [清华大学飞跃手册](https://feiyue.online/)  
+- [清华大学飞跃手册](https://feiyue.online/)
