@@ -1,0 +1,5 @@
+Data Guidelines:
+
+The “train” file includes the training data and incremental data for each task. The “template” file includes the template for each task. The contestants have to submit the probabilistic forecasts following the exact format and number of rows and columns as shown in the template file. In each task, a benchmark is also provided to further illustrate the formatting.
+
+The benchmark in the load forecasting track was created by taking the same month last year as the predicted load across all quantiles. This is a naïve benchmark, which takes a naïve forecast and expands it to 99 quantiles. The contestants do NOT have to provide the same value across all quantiles.
