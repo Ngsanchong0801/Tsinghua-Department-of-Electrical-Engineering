@@ -24,7 +24,7 @@
 - 国际班: 至少选4门  
 ## 电机系学习资料
 - [电机系选课指南](https://docs.qq.com/sheet/DTWlBTERkaE56ckxY)  
-- [电机系祖传云盘](https://cloud.tsinghua.edu.cn/d/d0d66bf31b95408ab095/)  
+- [电机系祖传云盘](https://cloud.tsinghua.edu.cn/d/c9b0fd14f0994e9f9e5b/)  
 ## 学习工具
 - [THU Info](https://github.com/thu-info-community/thu-info-app)  
 - [learnX](https://github.com/robertying/learnX)  
