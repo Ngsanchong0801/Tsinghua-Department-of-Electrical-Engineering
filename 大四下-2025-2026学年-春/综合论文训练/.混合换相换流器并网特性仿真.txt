@@ -1,0 +1,2 @@
+混合换相换流器并网特性仿真
+Simulation on Grid-Connection Characteristics of Hybrid Commutated Converters
